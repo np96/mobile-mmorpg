@@ -1,0 +1,22 @@
+{
+  "name": "SessionRpg.Networking.Tests",
+  "rootNamespace": "SessionRpg.Networking.Tests",
+  "references": [
+    "SessionRpg.Core",
+    "SessionRpg.Networking"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

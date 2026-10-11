@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 1,
+  "intakeId": "POLYHAVEN-2026-004",
+  "status": "TECH_REVIEW",
+  "assetId": "modular_fort_01",
+  "author": "Rico Cilliers",
+  "contribution": "All",
+  "acquired": "2026-09-07",
+  "assetUrl": "https://polyhaven.com/a/modular_fort_01",
+  "fileManifestUrl": "https://api.polyhaven.com/files/modular_fort_01",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt",
+  "licenseFile": "CC0-1.0.txt",
+  "licenseSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+  "totalSourceBytes": 32523603,
+  "sourceTriangles": 28218,
+  "sourceMeshCount": 22,
+  "publishedLods": false,
+  "maximumCompositionTriangles": 10000,
+  "desktopTextureSize": 2048,
+  "mobileTextureSize": 1024,
+  "scope": "One Sunbreak Basin camp 1 benchmark and neighboring major landmark 0. No other modes; no gameplay/collision changes.",
+  "runtimeModules": [
+    {
+      "node": "modular_fort_01_tower_round",
+      "triangles": 4772,
+      "submeshTriangles": [
+        792,
+        3980
+      ],
+      "dimensionsMeters": [
+        15.838445,
+        13.498152,
+        15.838445
+      ]
+    },
+    {
+      "node": "modular_fort_01_wall_thin_gate_01",
+      "triangles": 1368,
+      "submeshTriangles": [
+        384,
+        984
+      ],
+      "dimensionsMeters": [
+        2.67197,
+        8.616226,
+        7.410237
+      ],
+      "note": "Admitted by helper but not placed in benchmark, to avoid a visually traversable blocked gateway."
+    },
+    {
+      "node": "modular_fort_01_wall_thin_straight_03",
+      "triangles": 406,
+      "submeshTriangles": [
+        48,
+        358
+      ],
+      "dimensionsMeters": [
+        2.549778,
+        7.793655,
+        7.410239
+      ]
+    },
+    {
+      "node": "modular_fort_01_wall_thin_straight_04",
+      "triangles": 622,
+      "submeshTriangles": [
+        48,
+        574
+      ],
+      "dimensionsMeters": [
+        2.549778,
+        8.605536,
+        7.410239
+      ]
+    },
+    {
+      "node": "modular_fort_01_wall_thick_end_01",
+      "triangles": 442,
+      "submeshTriangles": [
+        128,
+        314
+      ],
+      "dimensionsMeters": [
+        4.172073,
+        7.793655,
+        4.8493
+      ]
+    },
+    {
+      "node": "modular_fort_01_wall_thin_corner_01",
+      "triangles": 654,
+      "submeshTriangles": [
+        64,
+        590
+      ],
+      "dimensionsMeters": [
+        4.56353,
+        8.605457,
+        4.557765
+      ],
+      "note": "2026-09-08 explicit admission from the unchanged original FBX. Wall/trim role order here; Unity imports trim first. One shared-scale corner replaces three differently scaled foreground wall pieces."
+    }
+  ],
+  "sourceMaterialOrder": [
+    "modular_fort_01_wall_1",
+    "modular_fort_01_trim_1"
+  ],
+  "files": [
+    {
+      "path": "modular_fort_01_1k.fbx",
+      "bytes": 1383932,
+      "md5": "4f0429ef44265aa6789c7dffaa1f0cff",
+      "sha256": "267369dc754afd545a91f302ef1819893bf8a907100010c097b58a2c576eb281",
+      "format": "fbx",
+      "role": "Original complete source model; six stable module meshes admitted",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/modular_fort_01/modular_fort_01_1k.fbx"
+    },
+    {
+      "path": "modular_fort_01_wall_diff_2k.jpg",
+      "bytes": 3768092,
+      "md5": "6d2fef7d56387ea281ceaf6d3238e048",
+      "sha256": "de442faf434b186b2008d55dbeaee9c5cb2c46c472e40e58c5e4907854462041",
+      "format": "jpg",
+      "role": "Wall diffuse; sRGB",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_fort_01/modular_fort_01_wall_diff_2k.jpg"
+    },
+    {
+      "path": "modular_fort_01_wall_nor_gl_2k.exr",
+      "bytes": 9386120,
+      "md5": "32585a7e538fc2f81465e0ccf3e08b37",
+      "sha256": "52cb200a1b07daecd54cd62f5cbffde94343b7f0e3e6ff9d2648076823774f54",
+      "format": "exr",
+      "role": "Wall OpenGL +Y normal; linear NormalMap, no green flip",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_fort_01/modular_fort_01_wall_nor_gl_2k.exr"
+    },
+    {
+      "path": "modular_fort_01_wall_rough_2k.jpg",
+      "bytes": 2659257,
+      "md5": "b69ee2b95b0e941eec89aeb02537912d",
+      "sha256": "2d4839b695d93cf2d832ae8112831a0774a855d5d800f1487e11c72185c571f2",
+      "format": "jpg",
+      "role": "Wall roughness; linear",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_fort_01/modular_fort_01_wall_rough_2k.jpg"
+    },
+    {
+      "path": "modular_fort_01_trim_diff_2k.jpg",
+      "bytes": 3625475,
+      "md5": "7b268cb5e99b0996692de51f35a6d143",
+      "sha256": "e582ffdad510dd23d5b8b7a5639286b81e149ad7f10502224eba0cf1391ca8ec",
+      "format": "jpg",
+      "role": "Trim diffuse; sRGB",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_fort_01/modular_fort_01_trim_diff_2k.jpg"
+    },
+    {
+      "path": "modular_fort_01_trim_nor_gl_2k.exr",
+      "bytes": 9052659,
+      "md5": "9fb6a2f4440803ddc87c4598ac950433",
+      "sha256": "6d8264568c489ab21b61233dfeac4f21192cba9c052720cb2031184afd296681",
+      "format": "exr",
+      "role": "Trim OpenGL +Y normal; linear NormalMap, no green flip",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/2k/modular_fort_01/modular_fort_01_trim_nor_gl_2k.exr"
+    },
+    {
+      "path": "modular_fort_01_trim_rough_2k.jpg",
+      "bytes": 2648068,
+      "md5": "3769cc68a58df0692aa04d2c63697336",
+      "sha256": "5ab14081fab6c93c8d75c31cda6ea7ade2cfc2a56e422269c3eeb920167518e2",
+      "format": "jpg",
+      "role": "Trim roughness; linear",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/modular_fort_01/modular_fort_01_trim_rough_2k.jpg"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "intakeId": "POLYHAVEN-2026-003",
+  "status": "TECH_REVIEW",
+  "assetId": "rock_moss_set_01",
+  "author": "Kless Gyzen",
+  "contribution": "All",
+  "acquired": "2026-09-07",
+  "assetUrl": "https://polyhaven.com/a/rock_moss_set_01",
+  "metadataUrl": "https://api.polyhaven.com/info/rock_moss_set_01",
+  "fileManifestUrl": "https://api.polyhaven.com/files/rock_moss_set_01",
+  "officialFilesHash": "3d61828e10ef81512a639c8064c9a51a75165b5a",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt",
+  "licenseFile": "CC0-1.0.txt",
+  "licenseSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+  "totalSourceBytes": 4475602,
+  "sourceTriangles": 63127,
+  "runtimeMesh": "rock_moss_set_01_rock03",
+  "runtimeTriangles": 5000,
+  "maximumInstances": 1,
+  "maximumHorizontalRadius": 1.5,
+  "publishedLods": false,
+  "scope": "One Sunbreak Basin camp 1 / landmark 7 benchmark; no other modes",
+  "files": [
+    {
+      "path": "rock_moss_set_01_1k.fbx",
+      "bytes": 2652988,
+      "md5": "3f82316eb266746b71ae287f5609bafb",
+      "sha256": "8fa2a2666ecc4591f59e1d45db05d86857115b55492c8522917f3de5e650e6f9",
+      "format": "fbx",
+      "role": "Source model; only rock03 admitted",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/rock_moss_set_01/rock_moss_set_01_1k.fbx"
+    },
+    {
+      "path": "rock_moss_set_01_diff_1k.jpg",
+      "bytes": 168099,
+      "md5": "b8742301e6b4bc5683d2de712e83f772",
+      "sha256": "40cea65d8aa4ee73a93b04af19963834d061eee9779c3fc2c1cba76eef812ccc",
+      "format": "jpg",
+      "role": "sRGB diffuse",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_diff_1k.jpg"
+    },
+    {
+      "path": "rock_moss_set_01_nor_gl_1k.exr",
+      "bytes": 1571891,
+      "md5": "6dc88738e972c3fbbaf1ccb3480b96cb",
+      "sha256": "d86555deabb910ed82b2b770d852ba5aa931d373689ff7ae028574c7b310be99",
+      "format": "exr",
+      "role": "OpenGL +Y normal; linear NormalMap import",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/exr/1k/rock_moss_set_01/rock_moss_set_01_nor_gl_1k.exr"
+    },
+    {
+      "path": "rock_moss_set_01_rough_1k.jpg",
+      "bytes": 82624,
+      "md5": "ed9d8a2c863262f76f881346e8047c6a",
+      "sha256": "4d6ec46623abd8e2cdb855f59c7ce31873ad61b36b60e4de579e9e776a497c6b",
+      "format": "jpg",
+      "role": "Linear roughness",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/1k/rock_moss_set_01/rock_moss_set_01_rough_1k.jpg"
+    }
+  ]
+}

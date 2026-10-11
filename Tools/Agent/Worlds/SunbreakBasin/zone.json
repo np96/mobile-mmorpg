@@ -1,0 +1,86 @@
+{
+  "schemaVersion": 1,
+  "worldId": 1,
+  "zoneId": 2,
+  "zoneKey": "sunbreak_basin",
+  "displayName": "Sunbreak Basin",
+  "contentVersion": 2,
+  "chunkSizeMeters": 64,
+  "loadRadius": 1,
+  "retainRadius": 2,
+  "maxLoadedChunks": 9,
+  "chunks": [
+    {
+      "x": -1,
+      "z": -1,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_-1_-1.unity",
+      "generationSeed": 205001,
+      "biomeRecipeId": "sunbreak_basin",
+      "poiRecipeIds": ["sunbreak_basin_clearing"]
+    },
+    {
+      "x": -1,
+      "z": 0,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_-1_0.unity",
+      "generationSeed": 205019,
+      "biomeRecipeId": "sunbreak_basin",
+      "poiRecipeIds": ["sunbreak_basin_clearing"]
+    },
+    {
+      "x": -1,
+      "z": 1,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_-1_1.unity",
+      "generationSeed": 205031,
+      "biomeRecipeId": "sunbreak_basin",
+      "poiRecipeIds": ["sunbreak_basin_clearing"]
+    },
+    {
+      "x": 0,
+      "z": -1,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_0_-1.unity",
+      "generationSeed": 205049,
+      "biomeRecipeId": "sunbreak_basin",
+      "poiRecipeIds": ["sunbreak_basin_clearing"]
+    },
+    {
+      "x": 0,
+      "z": 0,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_0_0.unity",
+      "generationSeed": 205063,
+      "biomeRecipeId": "sunbreak_basin",
+      "poiRecipeIds": ["sunbreak_basin_clearing"]
+    },
+    {
+      "x": 0,
+      "z": 1,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_0_1.unity",
+      "generationSeed": 205081,
+      "biomeRecipeId": "sunbreak_basin",
+      "poiRecipeIds": ["sunbreak_basin_clearing"]
+    },
+    {
+      "x": 1,
+      "z": -1,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_1_-1.unity",
+      "generationSeed": 205097,
+      "biomeRecipeId": "sunbreak_basin",
+      "poiRecipeIds": ["sunbreak_basin_clearing"]
+    },
+    {
+      "x": 1,
+      "z": 0,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_1_0.unity",
+      "generationSeed": 205109,
+      "biomeRecipeId": "sunbreak_basin",
+      "poiRecipeIds": ["sunbreak_basin_clearing"]
+    },
+    {
+      "x": 1,
+      "z": 1,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_1_1.unity",
+      "generationSeed": 205127,
+      "biomeRecipeId": "sunbreak_basin",
+      "poiRecipeIds": ["sunbreak_basin_clearing"]
+    }
+  ]
+}

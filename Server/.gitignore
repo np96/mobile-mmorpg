@@ -1,0 +1,7 @@
+# These are authored standalone projects, not Unity-generated IDE files.
+!*.csproj
+!*.slnx
+**/bin/
+**/obj/
+**/TestResults/
+.data/

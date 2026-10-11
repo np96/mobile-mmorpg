@@ -1,0 +1,123 @@
+{
+  "schemaVersion": 1,
+  "intakeId": "POLYHAVEN-2026-001",
+  "assetId": "stone_brick_wall_001",
+  "displayName": "Stone Brick Wall 001",
+  "assetType": "seamless_pbr_texture",
+  "provider": "Poly Haven",
+  "contributors": [
+    {
+      "name": "Dimitrios Savva",
+      "role": "photography"
+    },
+    {
+      "name": "Rico Cilliers",
+      "role": "processing"
+    }
+  ],
+  "assetPage": "https://polyhaven.com/a/stone_brick_wall_001",
+  "providerLicensePage": "https://polyhaven.com/license",
+  "license": "CC0-1.0",
+  "retrievedOn": "2026-09-02",
+  "retrievalMethod": "one-off manual download from official dl.polyhaven.org asset CDN; public API not used",
+  "sourceResolution": "2K",
+  "widthPixels": 2048,
+  "heightPixels": 2048,
+  "physicalWidthMeters": 2.5,
+  "reportedPixelsPerCentimeterAt2K": 8.2,
+  "runtimeStatus": "authoring-selected TECH_REVIEW runtime candidate for the shared RuinStone material; production art and physical Android acceptance pending",
+  "reviewStatus": "TECH_REVIEW",
+  "runtimeCandidate": {
+    "authoringSource": "Assets/SessionRpg/Editor/Authoring/AuthoringAssets.cs",
+    "materialPath": "Assets/SessionRpg/Art/Materials/RuinStone.mat",
+    "directSourceRoles": [
+      "diffuse",
+      "normal"
+    ],
+    "derivedMask": {
+      "path": "Assets/SessionRpg/Art/Environment/Textures/FortressMasonryMask.png",
+      "manifest": "SourceArt/Blender/Environment/Textures/FortressMasonryPbr.manifest.json",
+      "sha256": "fddbbf69b2d67b54ef381e8af01bfe3665bbccc560caec4e3487de4b0b246ca2",
+      "channels": {
+        "R": "metallic=0",
+        "G": "ambient_occlusion",
+        "B": "displacement_reference_not_sampled_by_URP_Lit",
+        "A": "smoothness=clamp(1-roughness,0.02,0.42)"
+      }
+    },
+    "acceptancePending": [
+      "fresh generated runtime rebuild and validation",
+      "user gameplay-camera art approval",
+      "all required arena yaw and aspect-ratio captures",
+      "physical Android texture, shader, frame-time, memory, and thermal profiling"
+    ]
+  },
+  "retainedLicense": {
+    "path": "Assets/ThirdParty/PolyHaven/StoneBrickWall001/CC0-1.0.txt",
+    "sourceUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt",
+    "bytes": 7048,
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+  },
+  "files": [
+    {
+      "role": "diffuse",
+      "path": "Assets/ThirdParty/PolyHaven/StoneBrickWall001/stone_brick_wall_001_diff_2k.png",
+      "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/stone_brick_wall_001/stone_brick_wall_001_diff_2k.png",
+      "intendedColorSpace": "sRGB",
+      "pngBitDepth": 16,
+      "pngChannels": "RGB",
+      "bytes": 22743607,
+      "sha256": "844c0a9f97bdc0da90243b3399eb1b21af866a43fb2dfd937b5f5ef91caca411"
+    },
+    {
+      "role": "normal",
+      "normalConvention": "OpenGL +Y",
+      "path": "Assets/ThirdParty/PolyHaven/StoneBrickWall001/stone_brick_wall_001_nor_gl_2k.png",
+      "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/stone_brick_wall_001/stone_brick_wall_001_nor_gl_2k.png",
+      "intendedColorSpace": "linear non-color",
+      "pngBitDepth": 16,
+      "pngChannels": "RGB",
+      "bytes": 23320807,
+      "sha256": "cbd2840da66585e6639adbaa4be1509d233dc0fc878bf68f13d0b5a9db73ebe2"
+    },
+    {
+      "role": "ambient_occlusion",
+      "path": "Assets/ThirdParty/PolyHaven/StoneBrickWall001/stone_brick_wall_001_ao_2k.png",
+      "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/stone_brick_wall_001/stone_brick_wall_001_ao_2k.png",
+      "intendedColorSpace": "linear non-color",
+      "pngBitDepth": 16,
+      "pngChannels": "grayscale",
+      "bytes": 7522187,
+      "sha256": "6d57c87245b2bac8fa541d66fda9ba306ad4d4808506358bc502cfcb08bb9ff0"
+    },
+    {
+      "role": "roughness",
+      "path": "Assets/ThirdParty/PolyHaven/StoneBrickWall001/stone_brick_wall_001_rough_2k.png",
+      "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/stone_brick_wall_001/stone_brick_wall_001_rough_2k.png",
+      "intendedColorSpace": "linear non-color",
+      "pngBitDepth": 16,
+      "pngChannels": "RGB",
+      "bytes": 10020667,
+      "sha256": "4f56119b7d8acd4da4756d658d9217760e5ef60d9dbe83400c28f12e00dad4c9"
+    },
+    {
+      "role": "displacement",
+      "usage": "source-only height reference for offline derivation; not approved as a mobile runtime sample",
+      "path": "Assets/ThirdParty/PolyHaven/StoneBrickWall001/stone_brick_wall_001_disp_2k.png",
+      "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/png/2k/stone_brick_wall_001/stone_brick_wall_001_disp_2k.png",
+      "intendedColorSpace": "linear non-color",
+      "pngBitDepth": 16,
+      "pngChannels": "RGB",
+      "bytes": 7904940,
+      "sha256": "2e30884f975d458dbebe8241d1084e09e326111b4bb4bce19af792428fb53b9d"
+    }
+  ],
+  "excludedVariants": [
+    "1K, 4K, 8K, and 16K maps",
+    "EXR and JPEG encodings",
+    "DirectX -Y normal",
+    "combined AO/roughness/metallic map",
+    "Blend, glTF, MaterialX, and ZIP packages",
+    "thumbnail and preview images"
+  ]
+}

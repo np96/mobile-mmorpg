@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "authoredDate": "2026-08-31",
+  "generator": "OpenAI built-in image_gen",
+  "masterSize": [1254, 1254],
+  "runtimeSourceSize": [256, 256],
+  "entries": [
+    {"abilityId":"ArcaneShot","masterSha256":"60b0655617d5eb69ddb3b4cefe98346a0673eaa3a62f6bf4e771cf4a61ac1a06","runtimeSourceSha256":"4bfeb215b485a646c7fb8a7af81198fa721c6aa734aedfcbbb46ef770aaee63f"},
+    {"abilityId":"DevouringPlague","masterSha256":"84ebe8759b8d2fecf718edef41066610c1956d910e77993cb618db3a6e8baaaa","runtimeSourceSha256":"d2ca9735c7a5a820e1b171bf210e0c78c5a71deded61aa5238a44262bd0704af"},
+    {"abilityId":"Disengage","masterSha256":"5af49b0cb1058d0220d8b9a3c6d1724ec2e740b68f3cb1489645d03b2957b092","runtimeSourceSha256":"729191b8beac59d9852761246589e2a0488c1e7ab5759cd71abf16a6dfa5f0f5"},
+    {"abilityId":"Dispersion","masterSha256":"bab3f92d90a814065d13ccf4ec7a9c1b5580d8f5b7db57556ae385d3e8817740","runtimeSourceSha256":"43189292dcd1df13eae058ca1cc14a4e68928b641344427f81bb8e75a9446a6a"},
+    {"abilityId":"FreezingArrow","masterSha256":"2ff5962eb0e16ecaec00669b06426cf2da299596e0508f8bd254f0c8893ae095","runtimeSourceSha256":"e879294e9809397b5c9d7355b258385ef7cbaa96cc1e45ee3e362edae26d180d"},
+    {"abilityId":"MindBlast","masterSha256":"ba6aa01489d9b0b5499fa1f4a7a558d8f81200667e81500efb95c878eb985db4","runtimeSourceSha256":"8035d7f7488b8d15f7bc8f618c302a96ca493b007e88ede702276d20b1e029b0"},
+    {"abilityId":"MindFlay","masterSha256":"ce588f13408f6cdec11dd12fecd3951c1e989466c7c16b0432f5004af8aa80ea","runtimeSourceSha256":"5d158ad653489d9dbcd6add4ece6d2431af2b5cda9eccd1fc988307b7549f928"},
+    {"abilityId":"PetAttack","masterSha256":"89de5f0ec44f4b78c3219085f042504906803ce512a1be836b4b3ac9bb96f284","runtimeSourceSha256":"4b58eb82bbbdd94d3831f59d23ada6260c18098ab3bcba7ca9417cb6c8f6df18"},
+    {"abilityId":"RapidFire","masterSha256":"5c97e0cfa02cb7f8b759e1be5e9b8819b2595e6ff0b111fa5a6b4f2528c5ab63","runtimeSourceSha256":"f259858590a13d1c439c4038bd819d1f8552357d3b59750be3eeaffa34db18fe"},
+    {"abilityId":"SerpentSting","masterSha256":"c05af97fcc1fa2f8701c64b985ee1804605039a2833018337c7f0a7da027bc56","runtimeSourceSha256":"d9e4fb66f8613dca2063cbaec411f9ebc646042db73e993df084559caaf9d375"},
+    {"abilityId":"ShadowWordPain","masterSha256":"bc038136bcb394cdb964e872bc699a185df7bba6beb5dad601b415006b880ad8","runtimeSourceSha256":"ed1138456ef918b70048911ffaf312f9e62b9d162964500c3c472b3680426fb4"},
+    {"abilityId":"Shadowform","masterSha256":"000a36764c2ddb1dbe5d509bbfb25aba210785aabee102a32e578385ecaf9dfa","runtimeSourceSha256":"4fd762e31e1b64e7a577b987bc695e37a31263a31371755d8b039133d60ff14a"},
+    {"abilityId":"Smite","masterSha256":"244fcc1376dca602d28120b21a2888e5b8a0e11ded29c81a07eb6a4ae07dcd6f","runtimeSourceSha256":"34b83ed0ba1fd4124120331b6bd54f3212cae47a8acdc68f25038651f4962e7c"},
+    {"abilityId":"SteadyShot","masterSha256":"508712f3ced603dfb539beb9271fb5b007c50848862e2a3362a783db277855ac","runtimeSourceSha256":"4b1748d4b4bf8cc3963284b29c5d3534115a239968861ee55259648648ec88d7"},
+    {"abilityId":"Stealth","masterSha256":"e55f55cb2c480677b30940a697c9f47ebce30677824f08fc905159d00b4d872b","runtimeSourceSha256":"9e4c236f29d341303e34e67d8ee8f5455ff941ce8133670227a115d5da167bf4"}
+  ]
+}

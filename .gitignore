@@ -1,0 +1,65 @@
+# Unity-generated state
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+.utmp/
+/Assets/InitTestScene*.unity
+/Assets/InitTestScene*.unity.meta
+
+# Local builds and disposable review evidence
+/build/
+/work/
+/outputs/
+.codex/
+.env
+.env.*
+!.env.example
+*.log
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.apk
+*.aab
+*.app/
+*_BurstDebugInformation_DoNotShip/
+
+# Crash and profiler artifacts
+mono_crash.*.json
+sysinfo.txt
+*.trace
+
+# IDE and operating-system files
+.DS_Store
+.idea/
+.vscode/
+*.csproj
+!Server/**/*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Generated language/tool caches and Blender safety copies
+__pycache__/
+*.py[cod]
+*.blend[0-9]
+
+# Restricted character payloads and rejected/intermediate art are local only.
+/Assets/ThirdParty/Trials/AdobeMixamo/
+/Assets/ThirdParty/Trials/AdobeMixamo.meta
+/SourceArt/Trials/AdobeMixamo/
+/Assets/SessionRpg/Art/Characters/*Mixamo*
+/SourceArt/Archive/
+/SourceArt/Blender/Characters/
+/SourceArt/ThirdParty/
+/SourceArt/Environment/SunbreakVegetationV1/ClusterBakes/

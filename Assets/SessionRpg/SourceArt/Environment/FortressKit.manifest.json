@@ -1,0 +1,354 @@
+{
+  "schema": 1,
+  "generator": "Tools/Art/Blender/build_fortress_kit.py",
+  "generator_version": "1.4.0",
+  "blender_version": "5.2.0 LTS",
+  "original_project_asset": true,
+  "external_mesh_or_texture_sources": [],
+  "units": "meters",
+  "source_blend": "SourceArt/Blender/Environment/FortressKit.blend",
+  "preview": "outputs/art/blender/fortress-kit/FortressKitContactSheet.png",
+  "ring_connectivity_preview": "outputs/art/blender/fortress-kit/FortressRingConnectivity.png",
+  "ring_gameplay_framing_preview": "outputs/art/blender/fortress-kit/FortressFoundationStrategyCamera.png",
+  "export_axis": {
+    "forward": "-Z",
+    "up": "+Y"
+  },
+  "material_contract": [
+    "Fortress_Stone",
+    "Fortress_Ember"
+  ],
+  "architectural_detail_contract": {
+    "language": "volcanic_gothic_fortress",
+    "straight_wall_chamfered_arches": 2,
+    "straight_wall_tapered_buttresses": 3,
+    "broken_wall_surviving_arches": 1,
+    "broken_wall_sheared_buttresses": 1,
+    "tower_tapered_shaft": true,
+    "tower_flared_crown": true,
+    "tower_inner_portal": true,
+    "tower_damaged_merlons": 3,
+    "foundation_staggered_shoulder_blocks": 33,
+    "joined_static_meshes_per_asset": 1,
+    "authoritative_gameplay_geometry": false
+  },
+  "gameplay_camera_contract": {
+    "yaw_degrees": 90.0,
+    "pitch_degrees": 56.0,
+    "distance_meters": 22.0,
+    "pivot_height_meters": 0.9,
+    "forward_focus_offset_meters": 2.3,
+    "right_focus_offset_meters": 0.0,
+    "vertical_fov_degrees": 50.0,
+    "render_aspect_ratio": [
+      16,
+      9
+    ]
+  },
+  "assets": [
+    {
+      "asset": "FortressWallStraight",
+      "root_object": "FortressWallStraight",
+      "mesh_object": "FortressWallStraight_Mesh",
+      "triangles": 1388,
+      "vertices": 744,
+      "submeshes": 1,
+      "material_slots": [
+        "Fortress_Stone"
+      ],
+      "uv_layers": [
+        "UV0"
+      ],
+      "bounds_min_blender_xyz": [
+        -3.86,
+        -0.765,
+        0.0
+      ],
+      "bounds_max_blender_xyz": [
+        3.86,
+        0.74,
+        3.2
+      ],
+      "size_blender_xyz": [
+        7.72,
+        1.505,
+        3.2
+      ],
+      "minimum_planar_vertex_radius": 0.5281,
+      "maximum_planar_vertex_radius": 3.9143,
+      "ground_center_origin": true,
+      "centered_origin": true,
+      "closed_manifold": true,
+      "triangulated": true,
+      "weighted_normals": true,
+      "visual_only": true,
+      "fbx": "Assets/SessionRpg/SourceArt/Environment/FortressWallStraight.fbx",
+      "fbx_bytes": 59756
+    },
+    {
+      "asset": "FortressWallBroken",
+      "root_object": "FortressWallBroken",
+      "mesh_object": "FortressWallBroken_Mesh",
+      "triangles": 1276,
+      "vertices": 680,
+      "submeshes": 1,
+      "material_slots": [
+        "Fortress_Stone"
+      ],
+      "uv_layers": [
+        "UV0"
+      ],
+      "bounds_min_blender_xyz": [
+        -3.86,
+        -0.765,
+        -0.0
+      ],
+      "bounds_max_blender_xyz": [
+        3.86,
+        0.74,
+        3.1566
+      ],
+      "size_blender_xyz": [
+        7.72,
+        1.505,
+        3.1566
+      ],
+      "minimum_planar_vertex_radius": 0.4701,
+      "maximum_planar_vertex_radius": 3.916,
+      "ground_center_origin": true,
+      "centered_origin": true,
+      "closed_manifold": true,
+      "triangulated": true,
+      "weighted_normals": true,
+      "visual_only": true,
+      "fbx": "Assets/SessionRpg/SourceArt/Environment/FortressWallBroken.fbx",
+      "fbx_bytes": 63900
+    },
+    {
+      "asset": "FortressTower",
+      "root_object": "FortressTower",
+      "mesh_object": "FortressTower_Mesh",
+      "triangles": 3192,
+      "vertices": 1686,
+      "submeshes": 2,
+      "material_slots": [
+        "Fortress_Stone",
+        "Fortress_Ember"
+      ],
+      "uv_layers": [
+        "UV0"
+      ],
+      "bounds_min_blender_xyz": [
+        -3.86,
+        -1.0784,
+        0.0
+      ],
+      "bounds_max_blender_xyz": [
+        3.86,
+        2.9784,
+        5.2
+      ],
+      "size_blender_xyz": [
+        7.72,
+        4.0569,
+        5.2
+      ],
+      "minimum_planar_vertex_radius": 0.0618,
+      "maximum_planar_vertex_radius": 3.9194,
+      "ground_center_origin": true,
+      "centered_origin": true,
+      "closed_manifold": true,
+      "triangulated": true,
+      "weighted_normals": true,
+      "visual_only": true,
+      "fbx": "Assets/SessionRpg/SourceArt/Environment/FortressTower.fbx",
+      "fbx_bytes": 127052
+    },
+    {
+      "asset": "FortressBrazier",
+      "root_object": "FortressBrazier",
+      "mesh_object": "FortressBrazier_Mesh",
+      "triangles": 534,
+      "vertices": 279,
+      "submeshes": 2,
+      "material_slots": [
+        "Fortress_Stone",
+        "Fortress_Ember"
+      ],
+      "uv_layers": [
+        "UV0"
+      ],
+      "bounds_min_blender_xyz": [
+        -0.6559,
+        -0.6559,
+        0.0
+      ],
+      "bounds_max_blender_xyz": [
+        0.6559,
+        0.6559,
+        2.54
+      ],
+      "size_blender_xyz": [
+        1.3118,
+        1.3118,
+        2.54
+      ],
+      "minimum_planar_vertex_radius": 0.0655,
+      "maximum_planar_vertex_radius": 0.6576,
+      "ground_center_origin": true,
+      "centered_origin": true,
+      "closed_manifold": true,
+      "triangulated": true,
+      "weighted_normals": true,
+      "visual_only": true,
+      "fbx": "Assets/SessionRpg/SourceArt/Environment/FortressBrazier.fbx",
+      "fbx_bytes": 35292
+    },
+    {
+      "asset": "Wardstone",
+      "root_object": "Wardstone",
+      "mesh_object": "Wardstone_Mesh",
+      "triangles": 596,
+      "vertices": 312,
+      "submeshes": 2,
+      "material_slots": [
+        "Fortress_Stone",
+        "Fortress_Ember"
+      ],
+      "uv_layers": [
+        "UV0"
+      ],
+      "bounds_min_blender_xyz": [
+        -0.9516,
+        -0.9516,
+        0.0
+      ],
+      "bounds_max_blender_xyz": [
+        0.9516,
+        0.9516,
+        2.3
+      ],
+      "size_blender_xyz": [
+        1.9032,
+        1.9032,
+        2.3
+      ],
+      "minimum_planar_vertex_radius": 0.7426,
+      "maximum_planar_vertex_radius": 0.996,
+      "ground_center_origin": true,
+      "centered_origin": true,
+      "closed_manifold": true,
+      "triangulated": true,
+      "weighted_normals": true,
+      "visual_only": true,
+      "wardstone_design_contract": {
+        "profile": "broad_stacked_octagonal_masonry",
+        "chunky_body_courses": 3,
+        "footprint_radius_range_meters": [
+          0.98,
+          1.03
+        ],
+        "height_range_meters": [
+          2.28,
+          2.35
+        ],
+        "bevel_range_meters": [
+          0.08,
+          0.12
+        ],
+        "ember_insets": 1
+      },
+      "fbx": "Assets/SessionRpg/SourceArt/Environment/Wardstone.fbx",
+      "fbx_bytes": 36028
+    },
+    {
+      "asset": "FortressFoundationRing",
+      "root_object": "FortressFoundationRing",
+      "mesh_object": "FortressFoundationRing_Mesh",
+      "triangles": 6492,
+      "vertices": 3384,
+      "submeshes": 1,
+      "material_slots": [
+        "Fortress_Stone"
+      ],
+      "uv_layers": [
+        "UV0"
+      ],
+      "bounds_min_blender_xyz": [
+        -25.4039,
+        -25.27,
+        -1.8
+      ],
+      "bounds_max_blender_xyz": [
+        25.4039,
+        25.27,
+        -0.45
+      ],
+      "size_blender_xyz": [
+        50.8078,
+        50.54,
+        1.35
+      ],
+      "minimum_planar_vertex_radius": 21.2924,
+      "maximum_planar_vertex_radius": 25.4453,
+      "ground_center_origin": false,
+      "centered_origin": true,
+      "closed_manifold": true,
+      "triangulated": true,
+      "weighted_normals": true,
+      "visual_only": true,
+      "foundation_ring_design_contract": {
+        "profile": "continuous_submerged_sloped_masonry_shoulder",
+        "bay_count": 18,
+        "inner_radius_minimum_meters": 21.25,
+        "authored_inner_radius_meters": 21.3,
+        "outer_radius_maximum_meters": 25.5,
+        "authored_outer_radius_meters": 25.45,
+        "top_height_meters": -0.45,
+        "bottom_height_meters": -1.8,
+        "flat_reachable_ledges": 0,
+        "joined_static_meshes": 1,
+        "mobile_triangle_target": 8000
+      },
+      "fbx": "Assets/SessionRpg/SourceArt/Environment/FortressFoundationRing.fbx",
+      "fbx_bytes": 230220
+    }
+  ],
+  "triangle_total_unique_modules": 13478,
+  "ring_layout": {
+    "radius_meters": 22.45,
+    "bay_count": 18,
+    "mathematical_chord_meters": 7.7968,
+    "module_tangential_width_meters": 7.72,
+    "nominal_join_gap_meters": 0.0768,
+    "tower_bastion_outward_projection_meters": 0.95,
+    "wall_modules": 12,
+    "tower_modules": 6,
+    "renderers": 18,
+    "submesh_draws": 24,
+    "triangles": 35136
+  },
+  "foundation_ring": {
+    "asset": "FortressFoundationRing",
+    "inner_radius_meters": 21.3,
+    "outer_radius_meters": 25.45,
+    "top_height_meters": -0.45,
+    "bottom_height_meters": -1.8,
+    "bay_count": 18,
+    "bay_angle_offset_degrees": 10.0,
+    "renderers": 1,
+    "submesh_draws": 1,
+    "triangles": 6492,
+    "continuous_lava_band_meters": [
+      15.0,
+      21.3
+    ],
+    "authoritative_gameplay_geometry": false
+  },
+  "complete_perimeter": {
+    "renderers": 19,
+    "submesh_draws": 25,
+    "triangles": 41628
+  },
+  "runtime_perimeter_budget_note": "At radius 22.45m, use twelve 7.72m wall modules and six 7.72m integrated-wing tower modules over the single continuous recessed foundation renderer. The standalone brazier remains optional source art and should not add a twentieth perimeter renderer."
+}

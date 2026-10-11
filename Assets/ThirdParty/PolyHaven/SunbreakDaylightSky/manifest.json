@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "intakeId": "POLYHAVEN-2026-006",
+  "assetId": "kloofendal_48d_partly_cloudy_puresky",
+  "status": "TECH_REVIEW",
+  "authors": [
+    {
+      "name": "Greg Zaal",
+      "contribution": "Original"
+    },
+    {
+      "name": "Jarod Guest",
+      "contribution": "Sky Edits"
+    }
+  ],
+  "acquired": "2026-09-07",
+  "assetUrl": "https://polyhaven.com/a/kloofendal_48d_partly_cloudy_puresky",
+  "fileManifestUrl": "https://api.polyhaven.com/files/kloofendal_48d_partly_cloudy_puresky",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "legalCodeUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt",
+  "licenseFile": "CC0-1.0.txt",
+  "licenseSha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499",
+  "scope": "Sunbreak Basin daylight sky only; no global lighting mutation or changes to other modes in this helper",
+  "totalSourceBytes": 1435119,
+  "sourceDimensions": [
+    1024,
+    512
+  ],
+  "sourcePositiveRgbRange": [
+    0.04296875,
+    61184
+  ],
+  "desktopMaximumSize": 1024,
+  "androidMaximumSize": 512,
+  "importFormat": "RGB9E5 native positive HDR; 4 bytes per texel before mips",
+  "mapping": "latitude-longitude 360-degree panorama",
+  "runtimeTriangles": 0,
+  "localDerivatives": [],
+  "files": [
+    {
+      "path": "kloofendal_48d_partly_cloudy_puresky_1k.hdr",
+      "bytes": 1435119,
+      "md5": "c69498687e876bf68d2a8b8a62234eb9",
+      "sha256": "fd94c84997b8a3c353b62c2125a9b44e19509956986a126e472684432a02d798",
+      "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/kloofendal_48d_partly_cloudy_puresky_1k.hdr",
+      "role": "Untouched original provider sky-only HDR delivery; linear high-dynamic-range RGB"
+    }
+  ]
+}

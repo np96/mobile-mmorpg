@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "zones": [
+    {
+      "worldId": 1,
+      "zoneId": 1,
+      "zoneKey": "ashen_causeway",
+      "definitionPath": "Tools/Agent/Worlds/AshenCauseway/zone.json"
+    },
+    {
+      "worldId": 1,
+      "zoneId": 2,
+      "zoneKey": "sunbreak_basin",
+      "definitionPath": "Tools/Agent/Worlds/SunbreakBasin/zone.json"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "SessionRpg.Application",
+  "rootNamespace": "SessionRpg.Application",
+  "references": [
+    "SessionRpg.Core"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true
+}

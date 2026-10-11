@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "retrievedOn": "2026-08-11",
+  "license": "CC0-1.0",
+  "creator": "Quaternius",
+  "packages": [
+    {
+      "id": "universal-base-characters-standard",
+      "source": "https://quaternius.itch.io/universal-base-characters",
+      "archive": "Universal Base Characters[Standard].zip",
+      "sha256": "fdbf1804c90dfc1ea03e992bff7da2dfd1a79318e13270a660180f9308455f40",
+      "licensePath": "Assets/ThirdParty/Quaternius/UniversalBaseCharacters/License_Standard.txt",
+      "roles": [
+        "female-base-and-head",
+        "male-base-and-head"
+      ]
+    },
+    {
+      "id": "modular-character-outfits-fantasy-standard",
+      "source": "https://quaternius.itch.io/modular-character-outfits-fantasy",
+      "archive": "Modular Character Outfits - Fantasy[Standard].zip",
+      "sha256": "c3468b18871cc8c8f05ab14df7712baf22cb9f389cbd870babf130e595187f70",
+      "licensePath": "Assets/ThirdParty/Quaternius/FantasyOutfits/License_Standard.txt",
+      "roles": [
+        "priest-outfit",
+        "rogue-outfit",
+        "mage-outfit"
+      ]
+    },
+    {
+      "id": "universal-animation-library-standard",
+      "source": "https://quaternius.itch.io/universal-animation-library",
+      "archive": "Universal Animation Library[Standard].zip",
+      "sha256": "cc73fc4e495b82958207316596317a3f40b9fa38065bde1027937452da537724",
+      "licensePath": "Assets/ThirdParty/Quaternius/UniversalAnimationLibrary/License.txt",
+      "roles": [
+        "humanoid-in-place-animation-source"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "SessionRpg.Unity",
+  "rootNamespace": "SessionRpg.Unity",
+  "references": [
+    "SessionRpg.Core",
+    "SessionRpg.Application",
+    "Unity.InputSystem",
+    "UnityEngine.UI"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

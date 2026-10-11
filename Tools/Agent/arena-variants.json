@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "entries": [
+    {
+      "contentId": "rift_crucible",
+      "mode": "Arena",
+      "gameplayLayoutId": "arena_default_v1",
+      "generatorRecipe": "rift_crucible_v1",
+      "outputPrefabPath": "Assets/SessionRpg/Content/Arenas/RiftCrucible/Prefabs/RiftCrucible.prefab",
+      "presentationVersion": 3,
+      "defaultForMode": true,
+      "artStatus": "prototype",
+      "brief": "Flat mirrored 2v2 crucible with a first-party carved stone floor, two readable wardstones, varied fortress masonry, restrained ember landmarks and a visible lava boundary."
+    },
+    {
+      "contentId": "ember_vault",
+      "mode": "Boss",
+      "gameplayLayoutId": "boss_default_v1",
+      "generatorRecipe": "ember_vault_v1",
+      "outputPrefabPath": "Assets/SessionRpg/Content/Arenas/EmberVault/Prefabs/EmberVault.prefab",
+      "presentationVersion": 2,
+      "defaultForMode": true,
+      "artStatus": "prototype",
+      "brief": "Flat boss chamber with a scaled first-party carved floor, restrained boss/recovery inlays, fortress shoulders, ember landmarks and a visible lava boundary."
+    },
+    {
+      "contentId": "ashen_stronghold",
+      "mode": "Siege",
+      "gameplayLayoutId": "siege_default_v1",
+      "generatorRecipe": "ashen_stronghold_v1",
+      "outputPrefabPath": "Assets/SessionRpg/Content/Arenas/AshenStronghold/Prefabs/AshenStronghold.prefab",
+      "presentationVersion": 1,
+      "defaultForMode": true,
+      "artStatus": "prototype",
+      "brief": "Persistent central fortress with four readable cardinal approach lanes, a shared flat combat plane, fortified lane shoulders and a high-angle composition for dense overlapping wave combat."
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "SessionRpg.Editor",
+  "rootNamespace": "SessionRpg.Editor",
+  "references": [
+    "SessionRpg.Core",
+    "SessionRpg.Application",
+    "SessionRpg.Unity",
+    "SessionRpg.Networking",
+    "Unity.InputSystem",
+    "UnityEngine.UI",
+    "Unity.Netcode.Runtime",
+    "Unity.Networking.Transport",
+    "Unity.RenderPipelines.Core.Runtime",
+    "Unity.RenderPipelines.Core.Editor",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5560bd3f8f34421592734be69cdcb62, type: 3}
+  m_Name: CombatSfxPalette
+  m_EditorClassIdentifier: SessionRpg.Unity::SessionRpg.Unity.Presentation.CombatSfxPalette
+  _castStart: {fileID: 8300000, guid: a15f8283dc493486c9ca3e9b53a693d0, type: 3}
+  _castReleaseMagic: {fileID: 8300000, guid: 2c82362f09a2d420782c3af80cd90036, type: 3}
+  _castReleasePhysical: {fileID: 8300000, guid: fa2d23e18b83c450eaa2489c8c9964fd, type: 3}
+  _impactMagic: {fileID: 8300000, guid: 266cb4102746f45b498ef08da686d978, type: 3}
+  _impactPhysical: {fileID: 8300000, guid: 1ca1a19ac2f724fccafad24b120e8c5d, type: 3}
+  _hazard: {fileID: 8300000, guid: bdcd076a6d96e4aff8d103f64f92721d, type: 3}
+  _heal: {fileID: 8300000, guid: f7214659286004cccb97141250c65b92, type: 3}
+  _barrier: {fileID: 8300000, guid: 0f6c37222bf0e4318be1f58dc16319c4, type: 3}
+  _interrupt: {fileID: 8300000, guid: 5aadba00c333f45f08468c50f502f3f6, type: 3}
+  _control: {fileID: 8300000, guid: d7c60f46b3ba048cbbf72eabd40295cb, type: 3}
+  _knockback: {fileID: 8300000, guid: 930319c25b26249c4afeb3dbfe0e4b53, type: 3}
+  _death: {fileID: 8300000, guid: 25dc9f862441740a4a3745293f371347, type: 3}
+  _resultVictory: {fileID: 8300000, guid: bcccd7a60a42a4429b5e1f49e5dc8430, type: 3}
+  _resultDefeat: {fileID: 8300000, guid: 87edfdd01137b46f9a78ff48be776ffb, type: 3}
+  _resultDraw: {fileID: 8300000, guid: a25dcb58560ed429f830d5a3e6b6f77b, type: 3}
+  _uiSelect: {fileID: 8300000, guid: 9374e7fe31b144b58b0fdbfd8581198b, type: 3}
+  _uiConfirm: {fileID: 8300000, guid: 20112dbf0005f4839a4a94e8a6fb12b8, type: 3}
+  _uiReject: {fileID: 8300000, guid: 1dec09761da58453ea2b770b7270d118, type: 3}
+  _targetSelect: {fileID: 8300000, guid: 6864444e60fa4424ab565384e29d3c13, type: 3}
+  _miss: {fileID: 8300000, guid: 195ecd2b1ea2f40409341b0e2436ebd9, type: 3}
+  _castReleaseRadiant: {fileID: 8300000, guid: 611116d4ae310478ea711530040fec8f, type: 3}
+  _impactRadiant: {fileID: 8300000, guid: ba5c2fd55704a4c589507b8263a7dc50, type: 3}
+  _castReleaseFire: {fileID: 8300000, guid: 3bd3ad5da4eff40dabc6beeb85875a58, type: 3}
+  _impactFire: {fileID: 8300000, guid: f56341d6453c24bdd9a884ceb74319b1, type: 3}
+  _castReleaseFrost: {fileID: 8300000, guid: 5e1cc40c4a20747d8ba3ec3661f599ab, type: 3}
+  _impactFrost: {fileID: 8300000, guid: 496f76e6aa86f4cb8872b70aa4a72370, type: 3}
+  _castReleaseShadow: {fileID: 8300000, guid: 7d01b6a6853874a7daf7555000c52dce, type: 3}
+  _impactShadow: {fileID: 8300000, guid: 349e563864d5e4f638693d5f74188806, type: 3}
+  _castReleaseArcane: {fileID: 8300000, guid: eb0d5c71d2e894a2389229f7c8c53299, type: 3}
+  _impactArcane: {fileID: 8300000, guid: 27ae9d5749f8341af8d04fd6a8ad62d4, type: 3}
+  _castReleaseVenom: {fileID: 8300000, guid: ba457e7b332114d759e241cd9b8da875, type: 3}
+  _impactVenom: {fileID: 8300000, guid: b7c6e6e829c2b4aa0b49c04204c67ab7, type: 3}

@@ -1,0 +1,210 @@
+{
+  "schemaVersion": 1,
+  "intakeId": "POLYHAVEN-2026-005",
+  "status": "TECH_REVIEW",
+  "blenderVersion": "5.2.0 LTS",
+  "procedure": "Tools/Art/Blender/prepare_sunbreak_vegetation.py",
+  "procedureSha256": "ec57dc2459da21bcce2e7efffbafe358fe2cb2eb7b61eb9f6426bd2a53d82e18",
+  "atlases": [
+    {
+      "path": "Assets/ThirdParty/PolyHaven/TreeSmall02/Derived/TreeClusterAtlas.png",
+      "bytes": 1389276,
+      "sha256": "49ed01ed502366ad262ba13d5408042382040ac8855c63bd717cb13a3d999faa",
+      "role": "TreeLeafDiffuse"
+    },
+    {
+      "path": "Assets/ThirdParty/PolyHaven/TreeSmall02/Derived/TreeClusterNormal.png",
+      "bytes": 1533987,
+      "sha256": "a1ff80279d00d7653ec971ec059635c7cee848f29cd46f7810dfb65775011a97",
+      "role": "TreeLeafNormal"
+    },
+    {
+      "path": "Assets/ThirdParty/PolyHaven/TreeSmall02/Derived/TreeClusterRoughness.png",
+      "bytes": 1354508,
+      "sha256": "b8c6f7ccfb2624337a26e37ba16658df3bb1c5e0237a5af0f19cd2c0838af0f2",
+      "role": "TreeLeafRoughness"
+    }
+  ],
+  "originalManifests": [
+    {
+      "path": "Assets/ThirdParty/PolyHaven/TreeSmall02/manifest.json",
+      "bytes": 5092,
+      "sha256": "d458b5f7361d45edd85a03c88c7575bde5be650acc08cab5fde330889fa3a859"
+    },
+    {
+      "path": "Assets/ThirdParty/PolyHaven/GrassMedium01/manifest.json",
+      "bytes": 2579,
+      "sha256": "94a36cfc2f00364626694ffc76bca0ed0bb1c1e6da95d82c1e8eabc3a6be38a2"
+    },
+    {
+      "path": "Assets/ThirdParty/PolyHaven/Fern02/manifest.json",
+      "bytes": 2388,
+      "sha256": "39c31d7978240a38fb06a94746b30f0d96d271a8dbab57da532f8e0ecd2d0d3d"
+    }
+  ],
+  "settings": {
+    "treeTrunkBudget": 3000,
+    "treeLeaves": "two perpendicular cards per source LOD1 cluster; 4 variants; original Geometry Nodes placement",
+    "trunkResolution": 23,
+    "branchResolution": 24,
+    "twigResolution": 14,
+    "twigProbability": 0.08,
+    "leafGrowth": 0.16,
+    "clusterVisualScale": "1.18 / 1.04 = 1.134615 relative to exact orthographic bake bounds",
+    "clusterAtlasSize": "1024 x 2048; eight 512-square views",
+    "normals": "measured GL tangent normals transformed WORLD to CAMERA, oriented to positive-Z card hemisphere; encoded linear RGB (normal * 0.5 + 0.5)",
+    "roughness": "measured source channel rendered unlit/Raw; no inferred AO or height",
+    "omittedGeometry": "fine Geometry Nodes twigs; source scanned trunk carries primary branches"
+  },
+  "selections": [
+    {
+      "selection": "TreeSmall02",
+      "path": "SourceArt/Environment/SunbreakVegetationV1/TreeSmall02.json",
+      "bytes": 2210169,
+      "sha256": "69f4ac31e16407a32d7f7e26b3d5af96fa1e7b59d34cf9cb941786eca510eab0",
+      "parts": [
+        {
+          "role": "TreeTrunk",
+          "triangles": 3000,
+          "vertices": 9000
+        },
+        {
+          "role": "TreeLeaf",
+          "triangles": 6328,
+          "vertices": 18946
+        }
+      ],
+      "boundsSize": [
+        2.942012,
+        4.575849,
+        4.319017
+      ]
+    },
+    {
+      "selection": "GrassTinyA",
+      "path": "SourceArt/Environment/SunbreakVegetationV1/GrassTinyA.json",
+      "bytes": 7979,
+      "sha256": "d1968751d4d4dc97f5bcfd9f0401a2875d0a5b3805aaa90b9d98cebd03231287",
+      "parts": [
+        {
+          "role": "Grass",
+          "triangles": 79,
+          "vertices": 87
+        }
+      ],
+      "boundsSize": [
+        0.067348,
+        0.112453,
+        0.073769
+      ]
+    },
+    {
+      "selection": "GrassTinyB",
+      "path": "SourceArt/Environment/SunbreakVegetationV1/GrassTinyB.json",
+      "bytes": 2862,
+      "sha256": "683d173741d08e7e998f278b1e4f7624ef7736f109d3c4ff7e04825478c0cfe2",
+      "parts": [
+        {
+          "role": "Grass",
+          "triangles": 28,
+          "vertices": 30
+        }
+      ],
+      "boundsSize": [
+        0.02357,
+        0.060208,
+        0.034399
+      ]
+    },
+    {
+      "selection": "GrassTinyC",
+      "path": "SourceArt/Environment/SunbreakVegetationV1/GrassTinyC.json",
+      "bytes": 4082,
+      "sha256": "7c8a459c702d4b80b3ed2e4b7d90a9509683607f194f3dd877c66704c2017994",
+      "parts": [
+        {
+          "role": "Grass",
+          "triangles": 40,
+          "vertices": 44
+        }
+      ],
+      "boundsSize": [
+        0.016031,
+        0.082389,
+        0.029004
+      ]
+    },
+    {
+      "selection": "GrassTinyD",
+      "path": "SourceArt/Environment/SunbreakVegetationV1/GrassTinyD.json",
+      "bytes": 3365,
+      "sha256": "8312fb7782058216bd18cf03d101248616870d512c8667b62afc53bded21f89a",
+      "parts": [
+        {
+          "role": "Grass",
+          "triangles": 32,
+          "vertices": 36
+        }
+      ],
+      "boundsSize": [
+        0.04304,
+        0.047827,
+        0.088582
+      ]
+    },
+    {
+      "selection": "GrassTinyE",
+      "path": "SourceArt/Environment/SunbreakVegetationV1/GrassTinyE.json",
+      "bytes": 6028,
+      "sha256": "21e8cacaa8dcfa057da723e36d2bf8c2b6e40134e0ab344a0f149ab9ea701112",
+      "parts": [
+        {
+          "role": "Grass",
+          "triangles": 62,
+          "vertices": 66
+        }
+      ],
+      "boundsSize": [
+        0.085265,
+        0.049451,
+        0.074152
+      ]
+    },
+    {
+      "selection": "GrassTinyF",
+      "path": "SourceArt/Environment/SunbreakVegetationV1/GrassTinyF.json",
+      "bytes": 5591,
+      "sha256": "ac249086c83461e85c9ca28429d66e11ce51f83fa01cc76045c1ca260cc6a543",
+      "parts": [
+        {
+          "role": "Grass",
+          "triangles": 60,
+          "vertices": 60
+        }
+      ],
+      "boundsSize": [
+        0.055196,
+        0.047075,
+        0.06889
+      ]
+    },
+    {
+      "selection": "Fern02a",
+      "path": "SourceArt/Environment/SunbreakVegetationV1/Fern02a.json",
+      "bytes": 52455,
+      "sha256": "5856243bedb2c90291c16dc9871d49fe8534ffac86f456772afd4633a5de8e17",
+      "parts": [
+        {
+          "role": "Fern",
+          "triangles": 784,
+          "vertices": 536
+        }
+      ],
+      "boundsSize": [
+        0.551941,
+        0.286804,
+        0.613421
+      ]
+    }
+  ]
+}

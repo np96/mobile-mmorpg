@@ -1,0 +1,28 @@
+{
+  "date": "2026-09-07",
+  "method": "Built-in image_gen; three new images; no references or post-processing",
+  "status": "Proposed concept art; not implemented or accepted gameplay evidence",
+  "prompts": "prompts.json",
+  "width": 1672,
+  "height": 941,
+  "images": [
+    {
+      "mode": "Leveling (PvE Leveling, not Training)",
+      "file": "leveling-v1.png",
+      "source": "generated_images/exec-2ca619f8-fd6a-49a8-b0c8-633b11119d7f.png",
+      "sha256": "abc5c9b695abe460224f538a8d1d36394d538e91cc974acada2c5cff0bd8e2e7"
+    },
+    {
+      "mode": "Arena",
+      "file": "arena-v1.png",
+      "source": "generated_images/exec-c7967b72-6527-4db4-96d7-283df73d12ad.png",
+      "sha256": "4a804563d7d2709b7d2189b15f657e48bb72d6f9dc061c7f7d72729842476a82"
+    },
+    {
+      "mode": "Dungeon",
+      "file": "dungeon-v1.png",
+      "source": "generated_images/exec-a20fb954-4e6b-4cd3-8caa-0916e1e31e47.png",
+      "sha256": "4c2cccc496a511ce8eadfc6059c2a1bfe536fc003806db2f7ac376449d157e88"
+    }
+  ]
+}

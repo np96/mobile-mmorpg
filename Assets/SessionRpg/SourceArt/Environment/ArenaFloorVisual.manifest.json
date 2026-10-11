@@ -1,0 +1,325 @@
+{
+  "schema": 1,
+  "generator": "Tools/Art/Blender/build_arena_floor.py",
+  "generator_version": "1.5.0",
+  "blender_version": "5.2.0 LTS",
+  "original_project_asset": true,
+  "external_mesh_or_texture_sources": [],
+  "units": "meters",
+  "source_blend": "SourceArt/Blender/Environment/ArenaFloor.blend",
+  "target_camera_preview": "outputs/art/blender/arena-floor/ArenaFloorTargetCamera.png",
+  "top_down_preview": "outputs/art/blender/arena-floor/ArenaFloorTopDown.png",
+  "desaturated_target_camera_preview": "outputs/art/blender/arena-floor/ArenaFloorDesaturatedTargetCamera.png",
+  "export_axis": {
+    "forward": "-Z",
+    "up": "+Y"
+  },
+  "material_contract": [
+    "ArenaFloor_Stone",
+    "ArenaFloor_Trim",
+    "ArenaFloor_Grout"
+  ],
+  "uv_contract": {
+    "mapping": "arena_disk_world_planar",
+    "world_x_meters": [
+      -15.0,
+      15.0
+    ],
+    "world_y_meters": [
+      -15.0,
+      15.0
+    ],
+    "uv_bounds": [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "u_formula": "(world_x + 15) / 30",
+    "v_formula": "(world_y + 15) / 30",
+    "meters_per_uv_span": 30.0,
+    "macro_base_map_tiling": [
+      1.0,
+      1.0
+    ],
+    "macro_base_map_offset": [
+      0.0,
+      0.0
+    ],
+    "micro_normal_mask_tiling": [
+      4.6875,
+      4.6875
+    ],
+    "micro_normal_mask_offset": [
+      0.47125,
+      0.64125
+    ],
+    "micro_effective_repeat_meters": 6.4,
+    "microdetail_feature_range_meters": [
+      0.03,
+      0.55
+    ]
+  },
+  "macro_albedo": {
+    "source": {
+      "path": "SourceArt/Blender/Environment/Textures/ArenaFloorMacroAlbedoSource.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "bace6a487c70f469f6b05b02f70d4befcedb0da67e29e74475fb20d5c7591940",
+      "bytes": 3241350,
+      "color_space": "sRGB",
+      "original_first_party": true
+    },
+    "runtime": {
+      "path": "Assets/SessionRpg/Art/Environment/Textures/ArenaFloorMacroAlbedo.png",
+      "width": 1024,
+      "height": 1024,
+      "sha256": "c234ee31cf53062ac0aecab0dea2e2756ae81bb620724b88dd0c2cbaa376f874",
+      "bytes": 2018100,
+      "color_space": "sRGB",
+      "role": "checked_in_mobile_derivative"
+    },
+    "material_slot": "ArenaFloor_Stone",
+    "usage": "single_full_floor_base_map",
+    "overlay_mesh": false,
+    "secondary_albedo_blend": false
+  },
+  "surface_maps": {
+    "schema": 1,
+    "generator": "Tools/Art/Blender/arena_floor_surface_maps.py",
+    "generator_version": "3.1.0",
+    "source": {
+      "path": "SourceArt/Blender/Environment/Textures/ArenaFloorSlateMicrodetailSource.png",
+      "width": 1254,
+      "height": 1254,
+      "original_first_party": true,
+      "sha256": "e8b61ff51cbed231aec716d37d9ed0d188eebf4ea192cb244b3c36b7bdc92137"
+    },
+    "macro_albedo_input": {
+      "path": "Assets/SessionRpg/Art/Environment/Textures/ArenaFloorMacroAlbedo.png",
+      "width": 1024,
+      "height": 1024,
+      "original_first_party_derivative": true,
+      "sha256": "c234ee31cf53062ac0aecab0dea2e2756ae81bb620724b88dd0c2cbaa376f874"
+    },
+    "android_max_size": 1024,
+    "surface_synthesis": {
+      "macro_pattern": "separate_single_mapped_ArenaFloorMacroAlbedo",
+      "source_usage": "first_party_seam_free_slate_microdetail",
+      "tile_edge_crossfade_pixels": 96,
+      "mortar_or_rune_pattern": false,
+      "macro_normal_derivation": "local_luminance_relief_12_pass_wrap_blur_percentile_1_5_to_98_5",
+      "macro_normal_strength": 4.2,
+      "macro_mask_derivation": "phase_aligned_micro_response_times_macro_joint_cavity_ao"
+    },
+    "normal_convention": "tangent_space_opengl_positive_y",
+    "packed_mask_channels": {
+      "r": "metallic",
+      "g": "ambient_occlusion",
+      "b": "height_spare",
+      "a": "smoothness_one_minus_roughness"
+    },
+    "packed_mask_channel_ranges": {
+      "r_metallic": [
+        0.0,
+        0.0
+      ],
+      "g_ambient_occlusion": [
+        0.7308,
+        0.9833
+      ],
+      "b_height_spare": [
+        0.053,
+        0.9303
+      ],
+      "a_smoothness": [
+        0.0933,
+        0.2348
+      ]
+    },
+    "macro_packed_mask_channel_ranges": {
+      "r_metallic": [
+        0.0,
+        0.0
+      ],
+      "g_ambient_occlusion": [
+        0.48,
+        0.933
+      ],
+      "b_height_spare": [
+        0.014,
+        0.7577
+      ],
+      "a_smoothness": [
+        0.1413,
+        0.3147
+      ]
+    },
+    "phase_baked_contract": {
+      "source_output": "ArenaFloorSurfaceMask.png",
+      "destination_output": "ArenaFloorMacroMask.png",
+      "micro_tiling": [
+        4.6875,
+        4.6875
+      ],
+      "micro_offset": [
+        0.47125,
+        0.64125
+      ],
+      "phase_baked_uv_formula": "fract(uv * 4.6875 + vec2(0.47125, 0.64125))",
+      "sampling": "wrapped_bilinear_texel_center",
+      "png_rows": "top_to_bottom_uv_v_inverted_during_bake",
+      "ao_and_smoothness_are_direct_phase_baked_source_channels": false,
+      "macro_cavity_ao": "phase_micro_ao_times_dark_joint_signal_clamped_0_48_to_0_985",
+      "macro_smoothness_remap": "phase_micro_roughness_to_0_14_0_32"
+    },
+    "tiling_proof": {
+      "path": "outputs/art/blender/arena-floor/ArenaFloorSurfaceTilingProof.png",
+      "layout": "two_by_two_repeat",
+      "sha256": "c84476a4f62af147dea23a7064741e33eaec201c4c6fd2c650a8cb8f31beaa2e",
+      "bytes": 1024535
+    },
+    "macro_pbr_proof": {
+      "path": "outputs/art/blender/arena-floor/ArenaFloorMacroPbrProof.png",
+      "layout": "normal_height_ao_smoothness_quadrants",
+      "sha256": "d86cfb8a3837f2c2189397c63265fb0d8c2e95ed22ff72d583f1999db588f7e7",
+      "bytes": 1409920
+    },
+    "outputs": {
+      "albedo": {
+        "path": "Assets/SessionRpg/Art/Environment/Textures/ArenaFloorSurfaceAlbedo.png",
+        "width": 1024,
+        "height": 1024,
+        "color_space": "sRGB",
+        "sha256": "60340f3665e9c8242dc5f1c2358ccb7237e5f1f560293b252768fd0dad859181",
+        "bytes": 2105474
+      },
+      "normal": {
+        "path": "Assets/SessionRpg/Art/Environment/Textures/ArenaFloorSurfaceNormal.png",
+        "width": 1024,
+        "height": 1024,
+        "color_space": "Non-Color",
+        "sha256": "bf636d38323bfc00a1b6acc13b8d8bd8bdca9c8501034bbbfa25d301c12a46c5",
+        "bytes": 2516390
+      },
+      "packed_mask": {
+        "path": "Assets/SessionRpg/Art/Environment/Textures/ArenaFloorSurfaceMask.png",
+        "width": 1024,
+        "height": 1024,
+        "color_space": "Non-Color",
+        "sha256": "efac66f5b641d562abbf31bf47b38af42ec80c7091bd1ca73bb837f9dd40c028",
+        "bytes": 2163271
+      },
+      "macro_normal": {
+        "path": "Assets/SessionRpg/Art/Environment/Textures/ArenaFloorMacroNormal.png",
+        "width": 1024,
+        "height": 1024,
+        "color_space": "Non-Color",
+        "sha256": "21b6b11785d40ac4a39fab0e2fbbfab72f3081a86ac56d2aa5df5698f9a69365",
+        "bytes": 2201499
+      },
+      "macro_packed_mask": {
+        "path": "Assets/SessionRpg/Art/Environment/Textures/ArenaFloorMacroMask.png",
+        "width": 1024,
+        "height": 1024,
+        "color_space": "Non-Color",
+        "sha256": "f0d2a9b3511536d60fbfdde681f466c4436940575b976dac18ebcf1d87eb4cd0",
+        "bytes": 3053541
+      }
+    },
+    "scope": "macro_and_micro_first_party_derivatives",
+    "runtime_usage": {
+      "albedo": "not_bound_macro_base_map_replaces_it",
+      "normal": "repeated_microdetail",
+      "packed_mask": "diagnostic_micro_source_for_phase_bake",
+      "macro_normal": "single_full_floor_base_normal",
+      "macro_packed_mask": "single_full_floor_base_pbr_mask"
+    }
+  },
+  "gameplay_camera_contract": {
+    "yaw_degrees": 90.0,
+    "pitch_degrees": 40.0,
+    "distance_meters": 18.0,
+    "pivot_height_meters": 0.9,
+    "forward_focus_offset_meters": 2.3,
+    "right_focus_offset_meters": 0.0,
+    "vertical_fov_degrees": 46.0,
+    "render_aspect_ratio": [
+      16,
+      9
+    ]
+  },
+  "design_contract": {
+    "radius_meters": 15.0,
+    "visual_top_meters": 0.0,
+    "maximum_vertical_relief_meters": 0.12,
+    "authoritative_collision": false,
+    "raised_playable_ledges": false,
+    "emissive_or_debug_rings": false,
+    "field_flagstone_material": "ArenaFloor_Stone",
+    "masonry_band_count": 5,
+    "geometric_flagstone_count": 147,
+    "trim_ring_count": 2,
+    "trim_ring_width_meters": 0.04,
+    "medallion_trim_width_meters": 0.13,
+    "outer_trim_width_meters": 0.12,
+    "trim_usage": "restrained_medallion_two_pinstripes_outer_pinstripe",
+    "macro_albedo_overlay_mesh": false,
+    "authoritative_collision_source": "unity_only"
+  },
+  "asset": {
+    "asset": "ArenaFloorVisual",
+    "root_object": "ArenaFloorVisual",
+    "mesh_object": "ArenaFloorVisual_Mesh",
+    "triangles": 15320,
+    "vertices": 7980,
+    "submeshes": 3,
+    "material_slots": [
+      "ArenaFloor_Stone",
+      "ArenaFloor_Trim",
+      "ArenaFloor_Grout"
+    ],
+    "uv_layers": [
+      "UV0"
+    ],
+    "uv0_planar_contract": {
+      "mapping": "arena_disk_world_planar",
+      "world_x_meters": [
+        -15.0,
+        15.0
+      ],
+      "world_y_meters": [
+        -15.0,
+        15.0
+      ],
+      "uv_bounds": [
+        0.0,
+        0.0,
+        1.0,
+        1.0
+      ],
+      "maximum_mapping_error": 3e-08
+    },
+    "radius_meters": 15.0,
+    "bounds_min_blender_xyz": [
+      -15.0,
+      -15.0,
+      -0.12
+    ],
+    "bounds_max_blender_xyz": [
+      15.0,
+      15.0,
+      0.0
+    ],
+    "vertical_extent_meters": 0.12,
+    "split_flagstone_cracks": 0,
+    "broken_flagstone_edges": 6,
+    "ground_center_origin": true,
+    "closed_manifold": true,
+    "triangulated": true,
+    "weighted_normals": true,
+    "visual_only": true,
+    "fbx": "Assets/SessionRpg/SourceArt/Environment/ArenaFloorVisual.fbx",
+    "fbx_bytes": 454380
+  }
+}

@@ -1,0 +1,5012 @@
+{
+  "assetId": "session-humanoid-animation-proof-v3-control-plan",
+  "bowContract": {
+    "manualWeaponGripVisualGate": "NOT_RUN",
+    "maximumHandRotationStepDegrees": 40.0,
+    "maximumHandTargetErrorMeters": 0.03,
+    "maximumRightElbowFlexDegrees": 135.0,
+    "minimumDrawHandTravelMeters": 0.3,
+    "minimumFullDrawHandSeparationMeters": 0.45,
+    "minimumReleaseHandTravelMeters": 0.3,
+    "rightDrawHandMustRemainOnNegativeXSide": true
+  },
+  "bowPoses": {
+    "DrawEarly": {
+      "controls": {
+        "chest": {
+          "eulerXYZRadians": [
+            0,
+            -0.085,
+            0.02
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hand_ik.L": {
+          "eulerXYZRadians": [
+            1.840301275253296,
+            0.5180338025093079,
+            0.025087978690862656
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.312,
+            -0.41,
+            1.407
+          ]
+        },
+        "hand_ik.R": {
+          "eulerXYZRadians": [
+            2.829094171524048,
+            -0.4221994876861572,
+            -0.6903021931648254
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.145,
+            -0.25,
+            1.455
+          ]
+        },
+        "head": {
+          "eulerXYZRadians": [
+            0,
+            0.035,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hips": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0,
+            0,
+            0.006
+          ],
+          "position": null
+        },
+        "neck": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "root": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.L": {
+          "eulerXYZRadians": [
+            0,
+            0.06,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.R": {
+          "eulerXYZRadians": [
+            -0.15,
+            -0.05,
+            -0.28
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.001": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.002": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.003": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "torso": {
+          "eulerXYZRadians": [
+            0,
+            -0.03,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "upper_arm_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.48,
+            0.135,
+            1.37
+          ]
+        },
+        "upper_arm_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.49,
+            0.23,
+            1.46
+          ]
+        }
+      },
+      "kinematics": {
+        "drawSpanMeters": 0.4925529813229287,
+        "sides": {
+          "Left": {
+            "elbowFlexDegrees": 67.72235014905193,
+            "elbowHead": [
+              0.38141655921936035,
+              -0.17513227462768555,
+              1.4054208993911743
+            ],
+            "fullDrawTargetErrorMeters": null,
+            "handHead": [
+              0.3149397075176239,
+              -0.4210304021835327,
+              1.4117101430892944
+            ],
+            "handSwingDegrees": 9.654367377654534,
+            "handTwistDegrees": 11.726081573682585,
+            "upperHead": [
+              0.183663010597229,
+              -0.01803743839263916,
+              1.4665058851242065
+            ]
+          },
+          "Right": {
+            "elbowFlexDegrees": 114.61926227343822,
+            "elbowHead": [
+              -0.37177175283432007,
+              -0.13820284605026245,
+              1.4886393547058105
+            ],
+            "fullDrawTargetErrorMeters": null,
+            "handHead": [
+              -0.1438528150320053,
+              -0.24865150451660156,
+              1.460734486579895
+            ],
+            "handSwingDegrees": 6.321251711274414,
+            "handTwistDegrees": 8.155694100159506,
+            "upperHead": [
+              -0.1765567809343338,
+              0.026756631210446358,
+              1.441776156425476
+            ]
+          }
+        }
+      },
+      "sourceClip": "HunterBowDraw",
+      "sourceFrame": 6
+    },
+    "DrawLate": {
+      "controls": {
+        "chest": {
+          "eulerXYZRadians": [
+            0,
+            -0.11,
+            0.023
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hand_ik.L": {
+          "eulerXYZRadians": [
+            1.709829330444336,
+            0.5422292351722717,
+            0.06827029585838318
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.318,
+            -0.455,
+            1.42
+          ]
+        },
+        "hand_ik.R": {
+          "eulerXYZRadians": [
+            2.8191142082214355,
+            -0.12187092006206512,
+            -0.9981030821800232
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.14,
+            -0.185,
+            1.515
+          ]
+        },
+        "head": {
+          "eulerXYZRadians": [
+            0,
+            0.045,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hips": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0,
+            0,
+            0.007
+          ],
+          "position": null
+        },
+        "neck": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "root": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.L": {
+          "eulerXYZRadians": [
+            0,
+            0.06,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.R": {
+          "eulerXYZRadians": [
+            -0.15,
+            -0.04,
+            -0.25
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.001": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.002": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.003": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "torso": {
+          "eulerXYZRadians": [
+            0,
+            -0.04,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "upper_arm_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.49,
+            0.14,
+            1.38
+          ]
+        },
+        "upper_arm_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.53,
+            0.26,
+            1.5
+          ]
+        }
+      },
+      "kinematics": {
+        "drawSpanMeters": 0.5497000647242517,
+        "sides": {
+          "Left": {
+            "elbowFlexDegrees": 47.73041718427587,
+            "elbowHead": [
+              0.3506086766719818,
+              -0.21319939196109772,
+              1.4280396699905396
+            ],
+            "fullDrawTargetErrorMeters": null,
+            "handHead": [
+              0.32104477286338806,
+              -0.4662740230560303,
+              1.4260679483413696
+            ],
+            "handSwingDegrees": 9.654367377654534,
+            "handTwistDegrees": 11.726148168026992,
+            "upperHead": [
+              0.183663010597229,
+              -0.018037453293800354,
+              1.4675058126449585
+            ]
+          },
+          "Right": {
+            "elbowFlexDegrees": 123.84657463455865,
+            "elbowHead": [
+              -0.3568389117717743,
+              -0.061864957213401794,
+              1.5784662961959839
+            ],
+            "fullDrawTargetErrorMeters": null,
+            "handHead": [
+              -0.13928508758544922,
+              -0.1808117926120758,
+              1.5197583436965942
+            ],
+            "handSwingDegrees": 6.321127914095707,
+            "handTwistDegrees": 8.155694100159506,
+            "upperHead": [
+              -0.16927264630794525,
+              0.043201327323913574,
+              1.432532548904419
+            ]
+          }
+        }
+      },
+      "sourceClip": "HunterBowDraw",
+      "sourceFrame": 12
+    },
+    "FullDraw": {
+      "controls": {
+        "chest": {
+          "eulerXYZRadians": [
+            0,
+            -0.13,
+            0.025
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hand_ik.L": {
+          "eulerXYZRadians": [
+            1.4655660390853882,
+            0.5709553956985474,
+            0.054890621453523636
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.3213199973,
+            -0.4966000021,
+            1.4304800034
+          ]
+        },
+        "hand_ik.R": {
+          "eulerXYZRadians": [
+            2.4951274394989014,
+            0.1739065945148468,
+            -0.6604081392288208
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+        -0.16,
+        -0.1663576448,
+            1.5576614141
+          ]
+        },
+        "head": {
+          "eulerXYZRadians": [
+            0,
+            0.055,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hips": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0,
+            0,
+            0.008
+          ],
+          "position": null
+        },
+        "neck": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "root": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.L": {
+          "eulerXYZRadians": [
+            0,
+            0.06,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.R": {
+          "eulerXYZRadians": [
+            -0.16,
+            -0.04,
+            -0.25
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.001": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.002": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.003": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "torso": {
+          "eulerXYZRadians": [
+            0,
+            -0.05,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "upper_arm_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.5,
+            0.14,
+            1.38
+          ]
+        },
+        "upper_arm_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.48,
+            0.1,
+            1.35
+          ]
+        }
+      },
+      "kinematics": {
+        "drawSpanMeters": 0.6090260019811735,
+        "sides": {
+          "Left": {
+            "elbowFlexDegrees": 18.25239306620053,
+            "elbowHead": [
+              0.2935214042663574,
+              -0.25281864404678345,
+              1.450462818145752
+            ],
+            "fullDrawTargetErrorMeters": 0.014886549995985349,
+            "handHead": [
+              0.32377809286117554,
+              -0.5055092573165894,
+              1.437947392463684
+            ],
+            "handSwingDegrees": 9.654367377654534,
+            "handTwistDegrees": 11.726148168026992,
+            "upperHead": [
+              0.1836629956960678,
+              -0.018037423491477966,
+              1.468505859375
+            ]
+          },
+          "Right": {
+            "elbowFlexDegrees": 119.33281680079904,
+            "elbowHead": [
+              -0.35927698016166687,
+              -0.03135857731103897,
+              1.488603949546814
+            ],
+            "fullDrawTargetErrorMeters": 0.02495428528276003,
+            "handHead": [
+              -0.13415007293224335,
+              -0.12417063117027283,
+              1.563626766204834
+            ],
+            "handSwingDegrees": 6.321127914095707,
+            "handTwistDegrees": 8.155694100159506,
+            "upperHead": [
+              -0.1410316675901413,
+              0.06644707173109055,
+              1.3870179653167725
+            ]
+          }
+        }
+      },
+      "sourceClip": "HunterBowDraw",
+      "sourceFrame": 20
+    },
+    "HoldBreathIn": {
+      "controls": {
+        "chest": {
+          "eulerXYZRadians": [
+            0,
+            -0.134,
+            0.027
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hand_ik.L": {
+          "eulerXYZRadians": [
+            1.4402401447296143,
+            0.5707035660743713,
+            0.0547761432826519
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.323,
+            -0.499,
+            1.433
+          ]
+        },
+        "hand_ik.R": {
+          "eulerXYZRadians": [
+            2.6321845054626465,
+            0.06179238110780716,
+            -1.1940040588378906
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+        -0.16,
+        -0.164,
+            1.56
+          ]
+        },
+        "head": {
+          "eulerXYZRadians": [
+            0,
+            0.058,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hips": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.002,
+            0,
+            0.01
+          ],
+          "position": null
+        },
+        "neck": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "root": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.L": {
+          "eulerXYZRadians": [
+            0,
+            0.06,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.R": {
+          "eulerXYZRadians": [
+            -0.15,
+            -0.04,
+            -0.24
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.001": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.002": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.003": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "torso": {
+          "eulerXYZRadians": [
+            0,
+            -0.052,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "upper_arm_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.5,
+            0.145,
+            1.38
+          ]
+        },
+        "upper_arm_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.565,
+            0.285,
+            1.545
+          ]
+        }
+      },
+      "kinematics": {
+        "drawSpanMeters": 0.6151372628543408,
+        "sides": {
+          "Left": {
+            "elbowFlexDegrees": 15.581823251671395,
+            "elbowHead": [
+              0.2906354069709778,
+              -0.2552388310432434,
+              1.455243706703186
+            ],
+            "fullDrawTargetErrorMeters": 0.017602796788699856,
+            "handHead": [
+              0.32726243138313293,
+              -0.5070763230323792,
+              1.4425570964813232
+            ],
+            "handSwingDegrees": 9.654367377654534,
+            "handTwistDegrees": 11.726081573682585,
+            "upperHead": [
+              0.18566299974918365,
+              -0.018037453293800354,
+              1.470505714416504
+            ]
+          },
+          "Right": {
+            "elbowFlexDegrees": 127.91244964368383,
+            "elbowHead": [
+              -0.3374166190624237,
+              0.027022643014788628,
+              1.6125693321228027
+            ],
+            "fullDrawTargetErrorMeters": 0.023774354206091336,
+            "handHead": [
+              -0.13442547619342804,
+              -0.11963934451341629,
+              1.5655640363693237
+            ],
+            "handSwingDegrees": 6.321127914095707,
+            "handTwistDegrees": 8.155694100159506,
+            "upperHead": [
+              -0.1588914841413498,
+              0.05649775266647339,
+              1.4260843992233276
+            ]
+          }
+        }
+      },
+      "sourceClip": "HunterBowHold",
+      "sourceFrame": 7
+    },
+    "HoldBreathOut": {
+      "controls": {
+        "chest": {
+          "eulerXYZRadians": [
+            0,
+            -0.126,
+            0.023
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hand_ik.L": {
+          "eulerXYZRadians": [
+            1.49482262134552,
+            0.570802628993988,
+            0.05547747388482094
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.319,
+            -0.494,
+            1.428
+          ]
+        },
+        "hand_ik.R": {
+          "eulerXYZRadians": [
+            2.6735081672668457,
+            0.06384475529193878,
+            -1.1726032495498657
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+        -0.19,
+        -0.169,
+            1.555
+          ]
+        },
+        "head": {
+          "eulerXYZRadians": [
+            0,
+            0.052,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hips": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            -0.002,
+            0,
+            0.006
+          ],
+          "position": null
+        },
+        "neck": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "root": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.L": {
+          "eulerXYZRadians": [
+            0,
+            0.06,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.R": {
+          "eulerXYZRadians": [
+            -0.15,
+            -0.04,
+            -0.24
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.001": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.002": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.003": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "torso": {
+          "eulerXYZRadians": [
+            0,
+            -0.048,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "upper_arm_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.5,
+            0.135,
+            1.38
+          ]
+        },
+        "upper_arm_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.555,
+            0.275,
+            1.535
+          ]
+        }
+      },
+      "kinematics": {
+        "drawSpanMeters": 0.604327720244477,
+        "sides": {
+          "Left": {
+            "elbowFlexDegrees": 21.226066185527323,
+            "elbowHead": [
+              0.2966497540473938,
+              -0.2501046359539032,
+              1.445541262626648
+            ],
+            "fullDrawTargetErrorMeters": 0.014021331447715075,
+            "handHead": [
+              0.31958919763565063,
+              -0.5035815238952637,
+              1.4333795309066772
+            ],
+            "handSwingDegrees": 9.654367377654534,
+            "handTwistDegrees": 11.726148168026992,
+            "upperHead": [
+              0.18166300654411316,
+              -0.01803743839263916,
+              1.4665058851242065
+            ]
+          },
+          "Right": {
+            "elbowFlexDegrees": 128.08063622180623,
+            "elbowHead": [
+              -0.3415462374687195,
+              0.014616694301366806,
+              1.609100580215454
+            ],
+            "fullDrawTargetErrorMeters": 0.02109485284336291,
+            "handHead": [
+              -0.13455919921398163,
+              -0.1244267001748085,
+              1.5566792488098145
+            ],
+            "handSwingDegrees": 6.321127914095707,
+            "handTwistDegrees": 8.155694100159506,
+            "upperHead": [
+              -0.16400519013404846,
+              0.05510856211185455,
+              1.4237462282180786
+            ]
+          }
+        }
+      },
+      "sourceClip": "HunterBowHold",
+      "sourceFrame": 19
+    },
+    "LooseAnticipation": {
+      "controls": {
+        "chest": {
+          "eulerXYZRadians": [
+            0,
+            -0.145,
+            0.028
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hand_ik.L": {
+          "eulerXYZRadians": [
+            1.4057488441467285,
+            0.5764375329017639,
+            0.047951839864254
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.325,
+            -0.502,
+            1.432
+          ]
+        },
+        "hand_ik.R": {
+          "eulerXYZRadians": [
+            2.579669237136841,
+            0.06071200594305992,
+            -1.2088268995285034
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+        -0.165,
+        -0.155,
+            1.565
+          ]
+        },
+        "head": {
+          "eulerXYZRadians": [
+            0,
+            0.06,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hips": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0,
+            0,
+            0.009
+          ],
+          "position": null
+        },
+        "neck": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "root": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.L": {
+          "eulerXYZRadians": [
+            0,
+            0.06,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.R": {
+          "eulerXYZRadians": [
+            -0.16,
+            -0.04,
+            -0.25
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.001": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.002": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.003": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "torso": {
+          "eulerXYZRadians": [
+            0,
+            -0.055,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "upper_arm_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.5,
+            0.15,
+            1.38
+          ]
+        },
+        "upper_arm_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.58,
+            0.3,
+            1.55
+          ]
+        }
+      },
+      "kinematics": {
+        "drawSpanMeters": 0.6282465003535096,
+        "sides": {
+          "Left": {
+            "elbowFlexDegrees": 12.345296278552185,
+            "elbowHead": [
+              0.2825145423412323,
+              -0.25793182849884033,
+              1.4555137157440186
+            ],
+            "fullDrawTargetErrorMeters": 0.01846063893567822,
+            "handHead": [
+              0.3268277943134308,
+              -0.5084103941917419,
+              1.4406331777572632
+            ],
+            "handSwingDegrees": 9.654367377654534,
+            "handTwistDegrees": 11.726148168026992,
+            "upperHead": [
+              0.1836629956960678,
+              -0.01803743839263916,
+              1.4695056676864624
+            ]
+          },
+          "Right": {
+            "elbowFlexDegrees": 128.26159525367655,
+            "elbowHead": [
+              -0.3414214551448822,
+              0.04353347420692444,
+              1.6072508096694946
+            ],
+            "fullDrawTargetErrorMeters": 0.022162432668335678,
+            "handHead": [
+              -0.1422368884086609,
+              -0.11077010631561279,
+              1.5692962408065796
+            ],
+            "handSwingDegrees": 6.321127914095707,
+            "handTwistDegrees": 8.155694100159506,
+            "upperHead": [
+              -0.15922538936138153,
+              0.05843811482191086,
+              1.4225913286209106
+            ]
+          }
+        }
+      },
+      "sourceClip": "HunterBowLoose",
+      "sourceFrame": 3
+    },
+    "LooseRelease": {
+      "controls": {
+        "chest": {
+          "eulerXYZRadians": [
+            0,
+            -0.12,
+            0.02
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hand_ik.L": {
+          "eulerXYZRadians": [
+            1.3881089687347412,
+            0.5809003114700317,
+            0.0424954853951931
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.327,
+            -0.503,
+            1.43
+          ]
+        },
+        "hand_ik.R": {
+          "eulerXYZRadians": [
+            1.3634319305419922,
+            0.12051717936992645,
+            -1.1505935192108154
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.53,
+            0.14,
+            1.58
+          ]
+        },
+        "head": {
+          "eulerXYZRadians": [
+            0,
+            0.05,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hips": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0,
+            0,
+            0.007
+          ],
+          "position": null
+        },
+        "neck": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "root": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.L": {
+          "eulerXYZRadians": [
+            0,
+            0.06,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.R": {
+          "eulerXYZRadians": [
+            -0.14,
+            -0.035,
+            -0.22
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.001": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.002": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.003": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "torso": {
+          "eulerXYZRadians": [
+            0,
+            -0.01,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "upper_arm_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.5,
+            0.15,
+            1.38
+          ]
+        },
+        "upper_arm_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.62,
+            0.32,
+            1.56
+          ]
+        }
+      },
+      "kinematics": {
+        "drawSpanMeters": 0.8752978022470757,
+        "sides": {
+          "Left": {
+            "elbowFlexDegrees": 11.071528323820983,
+            "elbowHead": [
+              0.2806217074394226,
+              -0.25868475437164307,
+              1.453203797340393
+            ],
+            "fullDrawTargetErrorMeters": null,
+            "handHead": [
+              0.32856184244155884,
+              -0.5083906054496765,
+              1.4366686344146729
+            ],
+            "handSwingDegrees": 9.654367377654534,
+            "handTwistDegrees": 11.726148168026992,
+            "upperHead": [
+              0.183663010597229,
+              -0.01803743839263916,
+              1.467505931854248
+            ]
+          },
+          "Right": {
+            "elbowFlexDegrees": 132.11965492711494,
+            "elbowHead": [
+              -0.3614233434200287,
+              0.2122170329093933,
+              1.3750829696655273
+            ],
+            "fullDrawTargetErrorMeters": null,
+            "handHead": [
+              -0.29444387555122375,
+              0.08775026351213455,
+              1.5870885848999023
+            ],
+            "handSwingDegrees": 6.321251711274414,
+            "handTwistDegrees": 8.155694100159506,
+            "upperHead": [
+              -0.16513614356517792,
+              0.05019456148147583,
+              1.4273966550827026
+            ]
+          }
+        }
+      },
+      "sourceClip": "HunterBowLoose",
+      "sourceFrame": 5
+    },
+    "LooseSettle": {
+      "controls": {
+        "chest": {
+          "eulerXYZRadians": [
+            0,
+            -0.06,
+            0.01
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hand_ik.L": {
+          "eulerXYZRadians": [
+            1.5086467266082764,
+            0.5483847260475159,
+            0.012571561150252819
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.325,
+            -0.485,
+            1.422
+          ]
+        },
+        "hand_ik.R": {
+          "eulerXYZRadians": [
+            2.664889335632324,
+            -0.5767132639884949,
+            -0.508014976978302
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.28,
+            -0.40,
+            1.37
+          ]
+        },
+        "head": {
+          "eulerXYZRadians": [
+            0,
+            0.03,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hips": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0,
+            0,
+            0.004
+          ],
+          "position": null
+        },
+        "neck": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "root": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.L": {
+          "eulerXYZRadians": [
+            0,
+            0.06,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.R": {
+          "eulerXYZRadians": [
+            -0.12,
+            -0.04,
+            -0.22
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.001": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.002": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.003": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "torso": {
+          "eulerXYZRadians": [
+            0,
+            0.025,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "upper_arm_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.48,
+            0.14,
+            1.37
+          ]
+        },
+        "upper_arm_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.48,
+            0.22,
+            1.44
+          ]
+        }
+      },
+      "kinematics": {
+        "drawSpanMeters": 0.5139869305189191,
+        "sides": {
+          "Left": {
+            "elbowFlexDegrees": 27.233784466254647,
+            "elbowHead": [
+              0.31351378560066223,
+              -0.24112549424171448,
+              1.4347201585769653
+            ],
+            "fullDrawTargetErrorMeters": null,
+            "handHead": [
+              0.3279341459274292,
+              -0.49534228444099426,
+              1.425206184387207
+            ],
+            "handSwingDegrees": 9.654367377654534,
+            "handTwistDegrees": 11.726148168026992,
+            "upperHead": [
+              0.183663010597229,
+              -0.018037430942058563,
+              1.464505672454834
+            ]
+          },
+          "Right": {
+            "elbowFlexDegrees": 102.5750501250103,
+            "elbowHead": [
+              -0.363454133272171,
+              -0.16606464982032776,
+              1.4400825500488281
+            ],
+            "fullDrawTargetErrorMeters": null,
+            "handHead": [
+              -0.14856678247451782,
+              -0.3028500974178314,
+              1.4339346885681152
+            ],
+            "handSwingDegrees": 6.321127914095707,
+            "handTwistDegrees": 8.155694100159506,
+            "upperHead": [
+              -0.17947663366794586,
+              0.017364388331770897,
+              1.4448529481887817
+            ]
+          }
+        }
+      },
+      "sourceClip": "HunterBowLoose",
+      "sourceFrame": 10
+    },
+    "Ready": {
+      "controls": {
+        "chest": {
+          "eulerXYZRadians": [
+            0,
+            -0.06,
+            0.018
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "foot_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hand_ik.L": {
+          "eulerXYZRadians": [
+            1.9255177974700928,
+            0.4939887225627899,
+            -0.03847413882613182
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.305,
+            -0.365,
+            1.395
+          ]
+        },
+        "hand_ik.R": {
+          "eulerXYZRadians": [
+            2.5532848834991455,
+            -0.6827064156532288,
+            -0.28862082958221436
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.16,
+            -0.37,
+            1.34
+          ]
+        },
+        "head": {
+          "eulerXYZRadians": [
+            0,
+            0.025,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "hips": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0,
+            0,
+            0.006
+          ],
+          "position": null
+        },
+        "neck": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "root": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.L": {
+          "eulerXYZRadians": [
+            0,
+            0.06,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "shoulder.R": {
+          "eulerXYZRadians": [
+            -0.1,
+            -0.03,
+            -0.18
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.001": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.002": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "spine_fk.003": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "thigh_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "toe_ik.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "torso": {
+          "eulerXYZRadians": [
+            0,
+            -0.02,
+            0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": null
+        },
+        "upper_arm_ik_target.L": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            0.46,
+            0.13,
+            1.36
+          ]
+        },
+        "upper_arm_ik_target.R": {
+          "eulerXYZRadians": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "offset": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "position": [
+            -0.45,
+            0.2,
+            1.42
+          ]
+        }
+      },
+      "kinematics": {
+        "drawSpanMeters": 0.4594686515454769,
+        "sides": {
+          "Left": {
+            "elbowFlexDegrees": 84.20126069159654,
+            "elbowHead": [
+              0.3995409905910492,
+              -0.13640572130680084,
+              1.3834255933761597
+            ],
+            "fullDrawTargetErrorMeters": null,
+            "handHead": [
+              0.3069733679294586,
+              -0.3732343316078186,
+              1.399800181388855
+            ],
+            "handSwingDegrees": 9.654367377654534,
+            "handTwistDegrees": 11.726081573682585,
+            "upperHead": [
+              0.183663010597229,
+              -0.01803743839263916,
+              1.4665056467056274
+            ]
+          },
+          "Right": {
+            "elbowFlexDegrees": 100.50857639162294,
+            "elbowHead": [
+              -0.3587155044078827,
+              -0.16993668675422668,
+              1.3934502601623535
+            ],
+            "fullDrawTargetErrorMeters": null,
+            "handHead": [
+              -0.14855508506298065,
+              -0.3134850859642029,
+              1.4057419300079346
+            ],
+            "handSwingDegrees": 6.321127914095707,
+            "handTwistDegrees": 8.155694100159506,
+            "upperHead": [
+              -0.18102280795574188,
+              0.010952699929475784,
+              1.4502040147781372
+            ]
+          }
+        }
+      },
+      "sourceClip": "HunterBowReady",
+      "sourceFrame": 25
+    }
+  },
+  "bowSparseKeyMapping": {
+    "HunterBowDraw": {
+      "1": {
+        "mode": "full",
+        "pose": "Ready"
+      },
+      "12": {
+        "mode": "full",
+        "pose": "DrawLate"
+      },
+      "20": {
+        "mode": "full",
+        "pose": "FullDraw"
+      },
+      "6": {
+        "mode": "full",
+        "pose": "DrawEarly"
+      }
+    },
+    "HunterBowHold": {
+      "1": {
+        "mode": "full",
+        "pose": "FullDraw"
+      },
+      "13": {
+        "mode": "full",
+        "pose": "FullDraw"
+      },
+      "19": {
+        "mode": "full",
+        "pose": "HoldBreathOut"
+      },
+      "25": {
+        "mode": "full",
+        "pose": "FullDraw"
+      },
+      "7": {
+        "mode": "full",
+        "pose": "HoldBreathIn"
+      }
+    },
+    "HunterBowLoose": {
+      "1": {
+        "mode": "full",
+        "pose": "FullDraw"
+      },
+      "10": {
+        "mode": "full",
+        "pose": "LooseSettle"
+      },
+      "3": {
+        "mode": "full",
+        "pose": "LooseAnticipation"
+      },
+      "5": {
+        "mode": "full",
+        "pose": "LooseRelease"
+      }
+    },
+    "HunterBowReady": {
+      "1": {
+        "mode": "full",
+        "pose": "Ready"
+      },
+      "13": {
+        "mode": "arms_only",
+        "pose": "Ready"
+      },
+      "19": {
+        "mode": "arms_only",
+        "pose": "Ready"
+      },
+      "25": {
+        "mode": "full",
+        "pose": "Ready"
+      },
+      "7": {
+        "mode": "arms_only",
+        "pose": "Ready"
+      }
+    },
+    "HunterBowRecovery": {
+      "1": {
+        "mode": "full",
+        "pose": "LooseSettle"
+      },
+      "18": {
+        "mode": "full",
+        "pose": "Ready"
+      }
+    }
+  },
+  "coordinateContract": "Blender meters, +Z up, -Y forward, +X left",
+  "ordinarySparseKeyOverrides": {
+    "CombatIdle": [
+      {
+        "frame": 1,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.5712471008300781,
+            0.4421491324901581,
+            -0.698783814907074
+          ],
+          "hand_ik.R": [
+            1.6013070344924927,
+            -0.43759989738464355,
+            0.6661059260368347
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2849999964237213,
+            -0.20499999821186066,
+            1.3350000381469727
+          ],
+          "hand_ik.R": [
+            -0.2849999964237213,
+            -0.1899999976158142,
+            1.3450000286102295
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 13,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.6027458906173706,
+            0.426932692527771,
+            -0.7068946361541748
+          ],
+          "hand_ik.R": [
+            1.5677751302719116,
+            -0.45251989364624023,
+            0.6592764258384705
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2849999964237213,
+            -0.20499999821186066,
+            1.3350000381469727
+          ],
+          "hand_ik.R": [
+            -0.2849999964237213,
+            -0.1899999976158142,
+            1.3450000286102295
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 25,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.489521861076355,
+            0.49880415201187134,
+            -0.6741772890090942
+          ],
+          "hand_ik.R": [
+            1.687008023262024,
+            -0.3796125054359436,
+            0.6961771845817566
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2849999964237213,
+            -0.20499999821186066,
+            1.3350000381469727
+          ],
+          "hand_ik.R": [
+            -0.2849999964237213,
+            -0.1899999976158142,
+            1.3450000286102295
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 37,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.6071996688842773,
+            0.35909315943717957,
+            -0.7382386922836304
+          ],
+          "hand_ik.R": [
+            1.554082989692688,
+            -0.5172289609909058,
+            0.6370348334312439
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2849999964237213,
+            -0.20499999821186066,
+            1.3350000381469727
+          ],
+          "hand_ik.R": [
+            -0.2849999964237213,
+            -0.1899999976158142,
+            1.3450000286102295
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 49,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.5712471008300781,
+            0.4421491324901581,
+            -0.698783814907074
+          ],
+          "hand_ik.R": [
+            1.6013070344924927,
+            -0.43759989738464355,
+            0.6661059260368347
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2849999964237213,
+            -0.20499999821186066,
+            1.3350000381469727
+          ],
+          "hand_ik.R": [
+            -0.2849999964237213,
+            -0.1899999976158142,
+            1.3450000286102295
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "Death": [
+      {
+        "frame": 1,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.5712471008300781,
+            0.44214916229248047,
+            -0.6987838745117188
+          ],
+          "hand_ik.R": [
+            1.6013067960739136,
+            -0.43759989738464355,
+            0.6661059260368347
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2849999964237213,
+            -0.20499999821186066,
+            1.3350000381469727
+          ],
+          "hand_ik.R": [
+            -0.2849999964237213,
+            -0.1899999976158142,
+            1.3450000286102295
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 8,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            0.9977220892906189,
+            0.12446422129869461,
+            -0.7021615505218506
+          ],
+          "hand_ik.R": [
+            0.8544809818267822,
+            -0.14078886806964874,
+            0.6687330603599548
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.4099999964237213,
+            0.019999999552965164,
+            1.25
+          ],
+          "hand_ik.R": [
+            -0.4000000059604645,
+            0.009999999776482582,
+            1.2450000047683716
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 18,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            -0.7501733303070068,
+            -0.3136155903339386,
+            -2.5035789012908936
+          ],
+          "hand_ik.R": [
+            -1.5294138193130493,
+            0.05696410685777664,
+            1.541419267654419
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.3499999940395355,
+            -0.019999999552965164,
+            0.8199999928474426
+          ],
+          "hand_ik.R": [
+            -0.25,
+            0.07999999821186066,
+            0.8500000238418579
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 30,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            0.26284196972846985,
+            1.8920499086380005,
+            -0.6622028946876526
+          ],
+          "hand_ik.R": [
+            -1.033096194267273,
+            1.0029537677764893,
+            -0.34579142928123474
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.30000001192092896,
+            -0.10000000149011612,
+            0.30000001192092896
+          ],
+          "hand_ik.R": [
+            -0.11999999731779099,
+            0.10000000149011612,
+            0.33000001311302185
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 42,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            -0.42830610275268555,
+            -0.16629137098789215,
+            -1.7226008176803589
+          ],
+          "hand_ik.R": [
+            -1.8179198503494263,
+            0.567525327205658,
+            -0.9520460367202759
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.27000001072883606,
+            -0.15000000596046448,
+            0.11999999731779099
+          ],
+          "hand_ik.R": [
+            -0.05000000074505806,
+            0.11999999731779099,
+            0.14499999582767487
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "Hit": [
+      {
+        "frame": 1,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.5712469816207886,
+            0.44214901328086853,
+            -0.698783814907074
+          ],
+          "hand_ik.R": [
+            1.6013067960739136,
+            -0.4375999867916107,
+            0.6661059856414795
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2849999964237213,
+            -0.20499999821186066,
+            1.3350000381469727
+          ],
+          "hand_ik.R": [
+            -0.2849999964237213,
+            -0.1899999976158142,
+            1.3450000286102295
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 4,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.5634922981262207,
+            0.47167935967445374,
+            -0.689704954624176
+          ],
+          "hand_ik.R": [
+            1.5874072313308716,
+            -0.4680790901184082,
+            0.6568841934204102
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2849999964237213,
+            -0.20499999821186066,
+            1.3350000381469727
+          ],
+          "hand_ik.R": [
+            -0.2849999964237213,
+            -0.1899999976158142,
+            1.3450000286102295
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 8,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            0.9623821973800659,
+            0.10359128564596176,
+            -0.6550405025482178
+          ],
+          "hand_ik.R": [
+            1.0775266885757446,
+            -0.010590744204819202,
+            0.6622084975242615
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.4050000011920929,
+            0.02500000037252903,
+            1.2599999904632568
+          ],
+          "hand_ik.R": [
+            -0.38999998569488525,
+            0.019999999552965164,
+            1.25
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 12,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            0.8209354877471924,
+            0.8337920308113098,
+            0.8869308829307556
+          ],
+          "hand_ik.R": [
+            -1.2443422079086304,
+            0.7196078300476074,
+            2.265226125717163
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2849999964237213,
+            -0.20499999821186066,
+            1.3350000381469727
+          ],
+          "hand_ik.R": [
+            -0.2849999964237213,
+            -0.1899999976158142,
+            1.3450000286102295
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 18,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.4771111011505127,
+            0.30176347494125366,
+            -0.8699811697006226
+          ],
+          "hand_ik.R": [
+            1.303281545639038,
+            0.34477555751800537,
+            1.1570409536361694
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2849999964237213,
+            -0.20499999821186066,
+            1.3350000381469727
+          ],
+          "hand_ik.R": [
+            -0.2849999964237213,
+            -0.1899999976158142,
+            1.3450000286102295
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "HunterBowRecovery": [
+      {
+        "frame": 1,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            0.7033200860023499,
+            0.5803799033164978,
+            -0.2822287678718567
+          ],
+          "hand_ik.R": [
+            1.0435380935668945,
+            -0.45159971714019775,
+            2.2879655361175537
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.3610070049762726,
+            -0.5169283151626587,
+            1.419620156288147
+          ],
+          "hand_ik.R": [
+            0.1929728239774704,
+            -0.497431218624115,
+            1.4145474433898926
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 6,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            0.6808870434761047,
+            0.4833143651485443,
+            -0.3729096055030823
+          ],
+          "hand_ik.R": [
+            0.9357514977455139,
+            -0.4107602536678314,
+            2.420928955078125
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.3364589512348175,
+            -0.45392730832099915,
+            1.417853832244873
+          ],
+          "hand_ik.R": [
+            0.11736172437667847,
+            -0.35623621940612793,
+            1.388443946838379
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 12,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.9298053979873657,
+            0.1409175992012024,
+            -0.8817139267921448
+          ],
+          "hand_ik.R": [
+            1.5325629711151123,
+            -0.2555832862854004,
+            1.6788084506988525
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.3169395327568054,
+            -0.39455747604370117,
+            1.4040976762771606
+          ],
+          "hand_ik.R": [
+            0.10741560906171799,
+            -0.3413769006729126,
+            1.3650336265563965
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 18,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.5381931066513062,
+            0.43612661957740784,
+            -0.46498122811317444
+          ],
+          "hand_ik.R": [
+            1.3568528890609741,
+            -0.4582689106464386,
+            1.965777039527893
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.30315282940864563,
+            -0.3574778735637665,
+            1.395810842514038
+          ],
+          "hand_ik.R": [
+            0.09252355247735977,
+            -0.33130306005477905,
+            1.3572555780410767
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "Interrupt": [
+      {
+        "frame": 1,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.8829718828201294,
+            0.41437503695487976,
+            -0.5306893587112427
+          ],
+          "hand_ik.R": [
+            1.938810110092163,
+            -0.41036027669906616,
+            0.5177414417266846
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.25,
+            -0.30000001192092896,
+            1.399999976158142
+          ],
+          "hand_ik.R": [
+            -0.24500000476837158,
+            -0.2849999964237213,
+            1.4049999713897705
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 4,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            2.1201605796813965,
+            0.4340466856956482,
+            -0.3421153128147125
+          ],
+          "hand_ik.R": [
+            2.174133062362671,
+            -0.4267348647117615,
+            0.3236173987388611
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2150000035762787,
+            -0.3499999940395355,
+            1.4450000524520874
+          ],
+          "hand_ik.R": [
+            -0.20999999344348907,
+            -0.3400000035762787,
+            1.4500000476837158
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 7,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.303228497505188,
+            0.020428450778126717,
+            -0.6759984493255615
+          ],
+          "hand_ik.R": [
+            1.3605520725250244,
+            0.055289942771196365,
+            0.6148499250411987
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.3799999952316284,
+            0.009999999776482582,
+            1.2699999809265137
+          ],
+          "hand_ik.R": [
+            -0.36000001430511475,
+            0.029999999329447746,
+            1.284999966621399
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 11,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            -1.9295003414154053,
+            -0.5352776050567627,
+            -1.9171404838562012
+          ],
+          "hand_ik.R": [
+            1.1709522008895874,
+            1.3990813493728638,
+            -1.6856756210327148
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2849999964237213,
+            -0.20499999821186066,
+            1.3350000381469727
+          ],
+          "hand_ik.R": [
+            -0.2849999964237213,
+            -0.1899999976158142,
+            1.3450000286102295
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 16,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.5494025945663452,
+            -0.016703955829143524,
+            -1.1345309019088745
+          ],
+          "hand_ik.R": [
+            1.2807008028030396,
+            0.1310676485300064,
+            0.9360628128051758
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2849999964237213,
+            -0.20499999821186066,
+            1.3350000381469727
+          ],
+          "hand_ik.R": [
+            -0.2849999964237213,
+            -0.1899999976158142,
+            1.3450000286102295
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ],
+    "LocomotionForward": [
+      {
+        "frame": 1,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            -0.02125057764351368,
+            0.3192862272262573,
+            -1.358461618423462
+          ],
+          "hand_ik.R": [
+            1.5334279537200928,
+            -0.4336945712566376,
+            0.9799379706382751
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.3199999928474426,
+            0.10499999672174454,
+            1.2350000143051147
+          ],
+          "hand_ik.R": [
+            -0.2549999952316284,
+            -0.2150000035762787,
+            1.284999966621399
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 4,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            0.36433956027030945,
+            0.2750672399997711,
+            -1.508513331413269
+          ],
+          "hand_ik.R": [
+            1.0352628231048584,
+            -0.5455979704856873,
+            0.9462172985076904
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.29499998688697815,
+            0.054999999701976776,
+            1.2549999952316284
+          ],
+          "hand_ik.R": [
+            -0.27000001072883606,
+            -0.15000000596046448,
+            1.274999976158142
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 7,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            0.6810083389282227,
+            0.46197617053985596,
+            -1.2393428087234497
+          ],
+          "hand_ik.R": [
+            0.9105510115623474,
+            -0.36628687381744385,
+            1.155322551727295
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.27000001072883606,
+            -0.02500000037252903,
+            1.2699999809265137
+          ],
+          "hand_ik.R": [
+            -0.28999999165534973,
+            -0.05999999865889549,
+            1.2549999952316284
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 10,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.3630691766738892,
+            0.4574177861213684,
+            -1.0355839729309082
+          ],
+          "hand_ik.R": [
+            0.21884483098983765,
+            -0.34089747071266174,
+            1.3266005516052246
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.25,
+            -0.1550000011920929,
+            1.284999966621399
+          ],
+          "hand_ik.R": [
+            -0.3149999976158142,
+            0.05999999865889549,
+            1.2350000143051147
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 13,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.3637830018997192,
+            0.4939136803150177,
+            -0.9202791452407837
+          ],
+          "hand_ik.R": [
+            0.04452119767665863,
+            -0.2701619863510132,
+            1.424625039100647
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.2549999952316284,
+            -0.2150000035762787,
+            1.284999966621399
+          ],
+          "hand_ik.R": [
+            -0.3199999928474426,
+            0.10499999672174454,
+            1.2350000143051147
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 16,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            1.1964420080184937,
+            0.46809709072113037,
+            -0.9901317358016968
+          ],
+          "hand_ik.R": [
+            0.3017752170562744,
+            -0.3359031081199646,
+            1.4106065034866333
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.27000001072883606,
+            -0.15000000596046448,
+            1.274999976158142
+          ],
+          "hand_ik.R": [
+            -0.29499998688697815,
+            0.054999999701976776,
+            1.2549999952316284
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 19,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            0.8680611848831177,
+            0.40994367003440857,
+            -1.1528725624084473
+          ],
+          "hand_ik.R": [
+            0.7146077156066895,
+            -0.4403877854347229,
+            1.252390742301941
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.28999999165534973,
+            -0.05999999865889549,
+            1.2549999952316284
+          ],
+          "hand_ik.R": [
+            -0.27000001072883606,
+            -0.02500000037252903,
+            1.2699999809265137
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 22,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            0.2206597477197647,
+            0.33801084756851196,
+            -1.3224438428878784
+          ],
+          "hand_ik.R": [
+            1.3629316091537476,
+            -0.4641132950782776,
+            1.0349215269088745
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.3149999976158142,
+            0.05999999865889549,
+            1.2350000143051147
+          ],
+          "hand_ik.R": [
+            -0.25,
+            -0.1550000011920929,
+            1.284999966621399
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      },
+      {
+        "frame": 25,
+        "handEulerRadians": {
+          "hand_ik.L": [
+            -0.02125057764351368,
+            0.3192862272262573,
+            -1.358461618423462
+          ],
+          "hand_ik.R": [
+            1.5334279537200928,
+            -0.4336945712566376,
+            0.9799379706382751
+          ]
+        },
+        "handPosition": {
+          "hand_ik.L": [
+            0.3199999928474426,
+            0.10499999672174454,
+            1.2350000143051147
+          ],
+          "hand_ik.R": [
+            -0.2549999952316284,
+            -0.2150000035762787,
+            1.284999966621399
+          ]
+        },
+        "polePosition": {
+          "upper_arm_ik_target.L": [
+            0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ],
+          "upper_arm_ik_target.R": [
+            -0.4539030194282532,
+            0.4292316138744354,
+            1.2129838466644287
+          ]
+        },
+        "shoulderOffset": {
+          "shoulder.L": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "shoulder.R": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    ]
+  },
+  "orientationLimitsDegrees": {
+    "maximumAbsoluteHandTwist": 30.0,
+    "maximumHandSwing": 45.0
+  },
+  "schemaVersion": 1,
+  "sourceEvidence": {
+    "externalAnimationDependency": false,
+    "ordinaryActionContextSolveSha256": "1d4e2b146ce2f4a2dacb7e10565bb48519a3c9cf5bb92228c94b86121294ff91",
+    "reviewedBowPoseStudySha256": "2049b417531cd619927408a4d3e4c070e313ede01d04b9c8c293fd60c17d1469",
+    "reviewedBowPoseStudyStatus": "PASS"
+  },
+  "status": "FIRST_PARTY_NUMERIC_KINEMATIC_SOURCE_NOT_BODY_ACCEPTANCE"
+}

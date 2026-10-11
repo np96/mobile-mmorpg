@@ -1,0 +1,22 @@
+{
+  "name": "SessionRpg.Application.Tests",
+  "rootNamespace": "SessionRpg.Application.Tests",
+  "references": [
+    "SessionRpg.Core",
+    "SessionRpg.Application"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": true,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

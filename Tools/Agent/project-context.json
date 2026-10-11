@@ -1,0 +1,395 @@
+{
+  "schemaVersion": 1,
+  "project": {
+    "id": "session-rpg",
+    "active": true,
+    "repositoryPath": "game-rpg",
+    "unityVersion": "6000.5.6f1",
+    "scene": "Assets/SessionRpg/Scenes/Bootstrap.unity",
+    "simulationTickHz": 30,
+    "cameraMode": "fixed-elevated-strategy-follow",
+    "playableModes": [
+      "local-arena-2v2-with-bots",
+      "local-boss-trio-with-bots",
+      "local-leveling-ashen-causeway-1-to-6",
+      "local-pve-sunbreak-basin-persistent-1-to-10"
+    ],
+    "networkGameplayImplemented": false,
+    "worldVisualStreamingImplemented": true,
+    "worldActorStreamingImplemented": false,
+    "worldPersistenceImplemented": false
+  },
+  "documents": {
+    "agentContract": "AGENTS.md",
+    "workflow": "Docs/AGENT_WORKFLOW.md",
+    "productDesign": "DESIGN.md",
+    "architecture": "ARCHITECTURE.md",
+    "demoReadiness": "Docs/DEMO_READINESS.md",
+    "visualQuality": "Docs/VISUAL_QUALITY.md",
+    "arenaAuthoring": "Docs/ARENA_AUTHORING.md",
+    "worldAuthoring": "Docs/WORLD_AUTHORING.md",
+    "thirdPartyNotices": "THIRD_PARTY_NOTICES.md"
+  },
+  "arenaContent": {
+    "manifest": "Tools/Agent/arena-variants.json",
+    "catalog": "Assets/SessionRpg/Settings/ArenaCatalog.asset",
+    "generator": "Assets/SessionRpg/Editor/Authoring/SessionRpgAuthoringGenerator.cs",
+    "requiredRoots": [
+      "Visuals",
+      "GameplayProxies",
+      "FlatGround",
+      "HazardSurfaces",
+      "CaptureAnchors"
+    ],
+    "requiredCaptureAnchors": [
+      "Overview",
+      "Gameplay",
+      "DenseCombat"
+    ],
+    "currentContentIds": [
+      "rift_crucible",
+      "ember_vault"
+    ],
+    "runtimeSelectionImplemented": false,
+    "artStatus": "prototype"
+  },
+  "worldContent": {
+    "catalogManifest": "Tools/Agent/world-zones.json",
+    "zoneManifestRoot": "Tools/Agent/Worlds",
+    "runtimeCatalog": "Assets/SessionRpg/Settings/WorldZoneCatalog.asset",
+    "generatedSceneRoot": "Assets/SessionRpg/Content/Worlds",
+    "chunkSizeMeters": 64,
+    "maxChunksPerZone": 1024,
+    "maxStreamingRadius": 8,
+    "visualStreamingImplemented": true,
+    "pairedWorldZoneLookupImplemented": true,
+    "sourceFingerprintValidationImplemented": true,
+    "failClosedPoiRecipesImplemented": true,
+    "authoritativeActorStreamingImplemented": false,
+    "networkAreaOfInterestImplemented": false,
+    "generalWorldTopologyImplemented": false,
+    "floatingOriginImplemented": false,
+    "remoteContentDeliveryImplemented": false,
+    "completeLocalRouteImplemented": true,
+    "currentZones": [
+      {
+        "worldId": 1,
+        "zoneId": 1,
+        "zoneKey": "ashen_causeway",
+        "contentVersion": 3,
+        "routeTopology": "single-authoritative-east-west-causeway",
+        "chunkCoordinates": [
+          "-3,0",
+          "-2,0",
+          "-1,0",
+          "0,0",
+          "1,0",
+          "2,0",
+          "3,0"
+        ],
+        "loadRadius": 1,
+        "retainRadius": 2,
+        "maxLoadedChunks": 7,
+        "districtCount": 7,
+        "districts": [
+          "West Refuge",
+          "Cinder Approach",
+          "Broken Gate",
+          "Collapsed Court",
+          "Ossuary Bend",
+          "Reliquary Yard",
+          "East Watch"
+        ],
+        "levelRange": "1-to-6",
+        "packCount": 5,
+        "mobCount": 10,
+        "mobArchetypeCount": 8,
+        "mobArchetypes": [
+          "Ashbound Raider",
+          "Cinder Marksman",
+          "Ashbound Brute",
+          "Cinder Hexer",
+          "Causeway Prelate",
+          "Rimebound Frostweaver",
+          "Reliquary Warder",
+          "Rift Warden"
+        ],
+        "packComposition": [
+          {
+            "pack": 1,
+            "district": "West Refuge",
+            "level": 1,
+            "activationX": -184,
+            "encounterX": -162,
+            "mobs": [
+              {
+                "participantId": 2,
+                "archetypeId": "AshMelee",
+                "displayName": "Ashbound Raider"
+              },
+              {
+                "participantId": 3,
+                "archetypeId": "AshRanged",
+                "displayName": "Cinder Marksman"
+              }
+            ]
+          },
+          {
+            "pack": 2,
+            "district": "Cinder Approach",
+            "level": 2,
+            "activationX": -120,
+            "encounterX": -98,
+            "mobs": [
+              {
+                "participantId": 4,
+                "archetypeId": "AshElite",
+                "displayName": "Causeway Prelate"
+              },
+              {
+                "participantId": 5,
+                "archetypeId": "RimeFrostweaver",
+                "displayName": "Rimebound Frostweaver"
+              }
+            ]
+          },
+          {
+            "pack": 3,
+            "district": "Broken Gate",
+            "level": 3,
+            "activationX": -56,
+            "encounterX": -34,
+            "mobs": [
+              {
+                "participantId": 6,
+                "archetypeId": "AshBrute",
+                "displayName": "Ashbound Brute"
+              },
+              {
+                "participantId": 7,
+                "archetypeId": "ReliquaryWarder",
+                "displayName": "Reliquary Warder"
+              }
+            ]
+          },
+          {
+            "pack": 4,
+            "district": "Ossuary Bend",
+            "level": 4,
+            "activationX": 76,
+            "encounterX": 98,
+            "mobs": [
+              {
+                "participantId": 8,
+                "archetypeId": "AshMelee",
+                "displayName": "Ashbound Raider"
+              },
+              {
+                "participantId": 9,
+                "archetypeId": "AshRanged",
+                "displayName": "Cinder Marksman"
+              },
+              {
+                "participantId": 10,
+                "archetypeId": "AshCaster",
+                "displayName": "Cinder Hexer"
+              }
+            ]
+          },
+          {
+            "pack": 5,
+            "district": "East Watch",
+            "level": 5,
+            "activationX": 184,
+            "encounterX": 206,
+            "mobs": [
+              {
+                "participantId": 11,
+                "archetypeId": "RiftWarden",
+                "displayName": "Rift Warden"
+              }
+            ]
+          }
+        ],
+        "abilityProgression": {
+          "initialAbilityCount": 5,
+          "unlockLevels": [
+            3,
+            5
+          ],
+          "finalAbilityCount": 7,
+          "directionalAlternatesEnabled": false
+        },
+        "artStatus": "prototype"
+      },
+      {
+        "worldId": 1,
+        "zoneId": 2,
+        "zoneKey": "sunbreak_basin",
+        "contentVersion": 2,
+        "routeTopology": "authored-planar-basin-with-star-convex-circle-union-landmarks",
+        "chunkCoordinates": ["-1,-1", "0,-1", "1,-1", "-1,0", "0,0", "1,0", "-1,1", "0,1", "1,1"],
+        "loadRadius": 1,
+        "retainRadius": 2,
+        "maxLoadedChunks": 9,
+        "playableSizeMeters": [180, 180],
+        "campCount": 7,
+        "maximumActiveHostiles": 3,
+        "solidIslandCount": 13,
+        "landmarkCount": 13,
+        "collisionComponentCount": 39,
+        "collisionComponentsPerLandmark": 3,
+        "landmarkBoundsAreSolid": false,
+        "majorLandmarkCentersXZ": [[-16, 5], [57, -40], [29, 27], [101, 71], [78, 45], [95, -12]],
+        "majorLandmarkCampIndices": [1, 2, 3, 6, 5, 4],
+        "campClearCombatRadiusMeters": 9,
+        "levelRange": "1-to-10",
+        "progressionPersistence": "per-specialization-device-local-xp",
+        "proceduralTerrainImplemented": false,
+        "artStatus": "prototype"
+      }
+    ]
+  },
+  "assemblies": [
+    {
+      "name": "SessionRpg.Core",
+      "path": "Assets/SessionRpg/Core",
+      "unityReferences": false
+    },
+    {
+      "name": "SessionRpg.Application",
+      "path": "Assets/SessionRpg/Application",
+      "dependsOn": [
+        "SessionRpg.Core"
+      ],
+      "unityReferences": false
+    },
+    {
+      "name": "SessionRpg.Networking",
+      "path": "Assets/SessionRpg/Networking",
+      "dependsOn": [
+        "SessionRpg.Core",
+        "SessionRpg.Application",
+        "Unity.Netcode.Runtime",
+        "Unity.Networking.Transport"
+      ],
+      "unityReferences": true
+    },
+    {
+      "name": "SessionRpg.Unity",
+      "path": "Assets/SessionRpg/Unity",
+      "dependsOn": [
+        "SessionRpg.Core",
+        "SessionRpg.Application"
+      ],
+      "unityReferences": true
+    },
+    {
+      "name": "SessionRpg.Editor",
+      "path": "Assets/SessionRpg/Editor",
+      "editorOnly": true,
+      "unityReferences": true
+    }
+  ],
+  "sourceOfTruth": {
+    "runtimeSource": [
+      "Assets/SessionRpg/Core/**",
+      "Assets/SessionRpg/Application/**",
+      "Assets/SessionRpg/Networking/**",
+      "Assets/SessionRpg/Unity/**"
+    ],
+    "authoringSource": [
+      "Assets/SessionRpg/Editor/Authoring/*.cs",
+      "Assets/SessionRpg/Editor/Arenas/*.cs",
+      "Assets/SessionRpg/Editor/World/*.cs",
+      "Assets/SessionRpg/Editor/Performance/*.cs",
+      "Tools/Agent/arena-variants.json",
+      "Tools/Agent/world-zones.json",
+      "Tools/Agent/Worlds/**/zone.json"
+    ],
+    "sourceArt": [
+      "Assets/SessionRpg/Art/UI/AbilityIcons/*.png",
+      "Assets/ThirdParty/**"
+    ],
+    "trackedGenerated": [
+      "Assets/SessionRpg/Scenes/Bootstrap.unity",
+      "Assets/SessionRpg/Content/Arenas/**",
+      "Assets/SessionRpg/Content/Worlds/**",
+      "Assets/SessionRpg/Prefabs/Combatant.prefab",
+      "Assets/SessionRpg/Art/Animations/**",
+      "Assets/SessionRpg/Art/Audio/**",
+      "Assets/SessionRpg/Art/Characters/**",
+      "Assets/SessionRpg/Art/Materials/**",
+      "Assets/SessionRpg/Art/Vfx/**",
+      "Assets/SessionRpg/Settings/**"
+    ],
+    "partlyGeneratorOwnedProjectSettings": [
+      "ProjectSettings/ProjectSettings.asset",
+      "ProjectSettings/GraphicsSettings.asset",
+      "ProjectSettings/QualitySettings.asset",
+      "ProjectSettings/TagManager.asset",
+      "ProjectSettings/EditorBuildSettings.asset"
+    ],
+    "ephemeral": [
+      "Library/**",
+      "Temp/**",
+      "Obj/**",
+      "Logs/**",
+      "UserSettings/**",
+      "MemoryCaptures/**",
+      "*.csproj",
+      "*.sln",
+      "*.slnx"
+    ]
+  },
+  "commands": {
+    "entrypoint": "Tools/Agent/unity.sh",
+    "doctor": "Tools/Agent/unity.sh doctor",
+    "validate": "Tools/Agent/unity.sh validate",
+    "validateIsolated": "Tools/Agent/unity.sh --isolated validate",
+    "rebuild": "Tools/Agent/unity.sh rebuild",
+    "testEditMode": "Tools/Agent/unity.sh test-edit",
+    "testPlayMode": "Tools/Agent/unity.sh test-play",
+    "testAll": "Tools/Agent/unity.sh test-all",
+    "testAllIsolated": "Tools/Agent/unity.sh --isolated test-all",
+    "buildAndroidDevelopment": "Tools/Agent/unity.sh build-android",
+    "buildMacCapture": "Tools/Agent/unity.sh build-macos",
+    "configureQuaternius": "Tools/Agent/unity.sh configure-quaternius",
+    "configureKayKit": "Tools/Agent/unity.sh configure-kaykit",
+    "configureMixamoErikaTrial": "Tools/Agent/unity.sh configure-mixamo-trial",
+    "configureMixamoPlayableClassTrials": "Tools/Agent/unity.sh configure-mixamo-class-trials",
+    "inspectMixamoPlayableClassTrials": "Tools/Agent/unity.sh inspect-mixamo-class-trials"
+  },
+  "commandPolicy": {
+    "directProjectRequiresClosedEditor": true,
+    "isolatedAllowedFor": [
+      "validate",
+      "test-edit",
+      "test-play",
+      "test-all",
+      "build-android",
+      "build-macos"
+    ],
+    "isolatedForbiddenFor": [
+      "rebuild",
+      "configure-quaternius",
+      "configure-kaykit",
+      "configure-mixamo-trial",
+      "configure-mixamo-class-trials",
+      "inspect-mixamo-class-trials"
+    ],
+    "outputsMustBeOutsideAssets": true,
+    "testsMustRunSerially": true,
+    "testSuccessRequiresFreshPassingXml": true
+  },
+  "performanceReference": {
+    "acceptanceClass": "mid-range-1080p-android-60fps",
+    "highEndReferenceClasses": [
+      "iQOO-12-class-Android",
+      "iPhone-17-class-iOS"
+    ],
+    "unverifiedTargetNames": [
+      "iQOO Neo 12"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "blenderVersion": "5.2.0 LTS",
+  "generator": "Tools/Art/Blender/prepare_fortress_pbr_maps.py",
+  "generatorVersion": "1.0.0",
+  "output": {
+    "bytes": 2902883,
+    "channels": {
+      "A": "smoothness=clamp(1-roughness,0.02,0.42)",
+      "B": "displacement_reference_not_sampled_by_URP_Lit",
+      "G": "ambient_occlusion",
+      "R": "metallic=0"
+    },
+    "colorSpace": "linear non-color",
+    "height": 1024,
+    "path": "Assets/SessionRpg/Art/Environment/Textures/FortressMasonryMask.png",
+    "sha256": "fddbbf69b2d67b54ef381e8af01bfe3665bbccc560caec4e3487de4b0b246ca2",
+    "width": 1024
+  },
+  "schemaVersion": 1,
+  "sourceAssetId": "stone_brick_wall_001",
+  "sourceHashes": {
+    "ambient_occlusion": "6d57c87245b2bac8fa541d66fda9ba306ad4d4808506358bc502cfcb08bb9ff0",
+    "diffuse": "844c0a9f97bdc0da90243b3399eb1b21af866a43fb2dfd937b5f5ef91caca411",
+    "displacement": "2e30884f975d458dbebe8241d1084e09e326111b4bb4bce19af792428fb53b9d",
+    "normal": "cbd2840da66585e6639adbaa4be1509d233dc0fc878bf68f13d0b5a9db73ebe2",
+    "roughness": "4f56119b7d8acd4da4756d658d9217760e5ef60d9dbe83400c28f12e00dad4c9"
+  },
+  "sourceIntakeId": "POLYHAVEN-2026-001",
+  "sourceManifest": "Assets/ThirdParty/PolyHaven/StoneBrickWall001/manifest.json"
+}

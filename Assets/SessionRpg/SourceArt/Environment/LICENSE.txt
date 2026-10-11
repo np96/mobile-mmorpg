@@ -1,0 +1,12 @@
+SESSION RPG ORIGINAL PROJECT ASSET NOTICE
+
+Copyright (c) 2026 Session RPG project contributors.
+
+These environment meshes, including the fortress kit and arena-floor visual, and
+their deterministic authoring scripts are original project work. They may be used,
+modified, built, and distributed as part of this project and its shipped products.
+No third-party mesh, texture, scan, or animation is incorporated in the generated
+assets.
+
+This notice documents provenance; it does not grant rights to third-party names,
+trademarks, or unrelated assets elsewhere in the repository.

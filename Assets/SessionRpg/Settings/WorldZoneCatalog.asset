@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362d0e2db7cd84970a846f8d427fb7f0, type: 3}
+  m_Name: WorldZoneCatalog
+  m_EditorClassIdentifier: SessionRpg.Unity::SessionRpg.Unity.World.WorldZoneCatalogAsset
+  _zones:
+  - _worldId: 1
+    _zoneId: 1
+    _zoneKey: ashen_causeway
+    _chunkSizeMeters: 64
+    _loadRadius: 1
+    _retainRadius: 2
+    _maxLoadedChunks: 7
+    _chunks:
+    - _chunkX: -3
+      _chunkZ: 0
+      _scenePath: Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_-3_0.unity
+      _sourceFingerprint: 1ebe55540ea5a1355cc50fd733a922c54e1de3b649f6465b0150b9a0c9b3f2cc
+    - _chunkX: -2
+      _chunkZ: 0
+      _scenePath: Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_-2_0.unity
+      _sourceFingerprint: 92de3ea281bba54c0fab9863059bdbfcf19f159aebf15a12de4087592f10a6e7
+    - _chunkX: -1
+      _chunkZ: 0
+      _scenePath: Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_-1_0.unity
+      _sourceFingerprint: ed976794d52d3c1930afeea924bba1a93caea07d685d21449d55df6ed9d29fb5
+    - _chunkX: 0
+      _chunkZ: 0
+      _scenePath: Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_0_0.unity
+      _sourceFingerprint: 6929e0761ac7854e7b11dfc0561e3cc8012be1c558bec7ad863bca52d5dbb53c
+    - _chunkX: 1
+      _chunkZ: 0
+      _scenePath: Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_1_0.unity
+      _sourceFingerprint: 8b778eb57615f6fe817bdd313aec9a73da35c3bc3e14994104cab5baddc65234
+    - _chunkX: 2
+      _chunkZ: 0
+      _scenePath: Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_2_0.unity
+      _sourceFingerprint: d36fa18afe62b519605020d3898b637fd5cf58bebccdff7f1a672fb7f21ba658
+    - _chunkX: 3
+      _chunkZ: 0
+      _scenePath: Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_3_0.unity
+      _sourceFingerprint: a0e0c54f7185bbf1f04a3da7d433679f765ad16f5254530bfbf8ac4cd4184cf8
+  - _worldId: 1
+    _zoneId: 2
+    _zoneKey: sunbreak_basin
+    _chunkSizeMeters: 64
+    _loadRadius: 1
+    _retainRadius: 2
+    _maxLoadedChunks: 9
+    _chunks:
+    - _chunkX: -1
+      _chunkZ: -1
+      _scenePath: Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_-1_-1.unity
+      _sourceFingerprint: 9b9e8af2b369fb6680a9926d5cbbe33cb87164be3f13d11ab3074816031d3e26
+    - _chunkX: -1
+      _chunkZ: 0
+      _scenePath: Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_-1_0.unity
+      _sourceFingerprint: 441b02f8ea4f2562577a7cd7a72b2f179ad2e71714106f4cdff45002087aa422
+    - _chunkX: -1
+      _chunkZ: 1
+      _scenePath: Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_-1_1.unity
+      _sourceFingerprint: ccbd0635c3f2c49e44e8f3f029663fc4898940a6bd24bba0a1054ab3b0ca6f67
+    - _chunkX: 0
+      _chunkZ: -1
+      _scenePath: Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_0_-1.unity
+      _sourceFingerprint: 5638a006e61506bb842540ec8e66a1afdbab503f4e2d70fc2821c8407ecb5877
+    - _chunkX: 0
+      _chunkZ: 0
+      _scenePath: Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_0_0.unity
+      _sourceFingerprint: b27b68cd4224c858a9b08202919b773360d44c3f30b3fc5aca9faae3866cb49a
+    - _chunkX: 0
+      _chunkZ: 1
+      _scenePath: Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_0_1.unity
+      _sourceFingerprint: 895f9fe32688b7372b00ad30997be0e1b12e50df3d9aeb5e8aa229a9d829f577
+    - _chunkX: 1
+      _chunkZ: -1
+      _scenePath: Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_1_-1.unity
+      _sourceFingerprint: 838c35738d8b5cc3a2d7c0b8f6b94d3a9fbbc29667d4b18758f98bc8c8c217de
+    - _chunkX: 1
+      _chunkZ: 0
+      _scenePath: Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_1_0.unity
+      _sourceFingerprint: 0da3e8d4fc2c852c2eae3018268088e81b109689ae9b867039e5dcfbb6a1601a
+    - _chunkX: 1
+      _chunkZ: 1
+      _scenePath: Assets/SessionRpg/Content/Worlds/SunbreakBasin/Chunks/Chunk_1_1.unity
+      _sourceFingerprint: 849cc35fa57f80ccc2f14dd7273a6e01343dae588cc93ace4f84321cb2dac30a

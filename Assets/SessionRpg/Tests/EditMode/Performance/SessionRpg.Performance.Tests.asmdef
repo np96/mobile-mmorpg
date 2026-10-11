@@ -1,0 +1,23 @@
+{
+  "name": "SessionRpg.Performance.Tests",
+  "rootNamespace": "SessionRpg.Tests.Performance",
+  "references": [
+    "SessionRpg.Unity",
+    "SessionRpg.Editor",
+    "Unity.RenderPipelines.Universal.Runtime"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": false,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false,
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ]
+}

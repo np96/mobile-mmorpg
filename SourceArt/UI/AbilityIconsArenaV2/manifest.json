@@ -1,0 +1,331 @@
+{
+  "schemaVersion": 1,
+  "authoredDate": "2026-08-31",
+  "generator": "OpenAI built-in image_gen",
+  "masterSize": [
+    1254,
+    1254
+  ],
+  "runtimeSourceSize": [
+    256,
+    256
+  ],
+  "entryCount": 45,
+  "entries": [
+    {
+      "abilityId": "AimedShot",
+      "class": "Hunter",
+      "masterSha256": "20be60594003e31c9c2253874f5b78ed1f4c597f2cee4f33093e6a4a252c5875",
+      "runtimeSourceSha256": "e3f43944e8d03c9bec82a13ee4ad7f47bc214aa7b348c0ba05a0c69c5c9c57ee",
+      "transparentDerivativeSha256": "516a047cb999634447ad5425fba1188c9b9823fc9cdb31191f26a15b5cf37dc8"
+    },
+    {
+      "abilityId": "AspectOfTheDragonhawk",
+      "class": "Hunter",
+      "masterSha256": "2e78680aa8a53ebfd1102b2c0541d65d56f43dbd62fee7636c72d415054663ef",
+      "runtimeSourceSha256": "3f33bba99c1b7cf365886ea65c079259055c0f9a98d01da83c623fb99d2bb6de",
+      "transparentDerivativeSha256": "0de2c65f71035882b20840866eddc45b1260d726118f9813385261e5ae5c034c"
+    },
+    {
+      "abilityId": "AspectOfTheViper",
+      "class": "Hunter",
+      "masterSha256": "6fe4dcdc8915da99585cbdb4a9930e438dc869094fcaa68591db84f86ce4cc11",
+      "runtimeSourceSha256": "2faf12c4bda58bbd9c6e3f470ec5b01d05ed9c3b53fafcd4d6a05c7708414b5a",
+      "transparentDerivativeSha256": "6d5c2a40ae4f00fd15b17ebccfa367ee7e4048bc4108edf3a7848c29809efb43"
+    },
+    {
+      "abilityId": "ChimeraShot",
+      "class": "Hunter",
+      "masterSha256": "2dcdbe28ab2f352f50f0d086584484ef10388c3decc77b0ece30e6aed8e67428",
+      "runtimeSourceSha256": "5c1d0996fe0614a03d877b606169a099bdc1a8b0c44b5653f4cc2a4be740cb14",
+      "transparentDerivativeSha256": "e9d7ba5e61365649f90a764bef03454ddeb96361eaa47d79955fe7c06d72f645"
+    },
+    {
+      "abilityId": "ColdSnap",
+      "class": "Mage",
+      "masterSha256": "eaf80b964ac26be8930fbbd120a5ff403238ca77b61097e2b058fcb742723011",
+      "runtimeSourceSha256": "ae708078ec5116e1e1034d20d4050ed73b6b9acc3cb10f60ff874096a6ea49f2",
+      "transparentDerivativeSha256": "34164caaf762f27d90ab0353c07c962371969d0d301966a393f9c7fe6bf336e8"
+    },
+    {
+      "abilityId": "ConcussiveShot",
+      "class": "Hunter",
+      "masterSha256": "b9b4f9ca63c8e72607b8b408c0ee68a62b5ffdcba588d4f9ec7d81eaadbb5bf7",
+      "runtimeSourceSha256": "fd7d4120bf141caf2d0f6b9330610f43495b66bbc2a79f436c8ad1ad0aa5cb01",
+      "transparentDerivativeSha256": "ee2fb9803f9725538ccc27a8d26970d6cdbce58dd34dc299d8537edda0161d88"
+    },
+    {
+      "abilityId": "ConeOfCold",
+      "class": "Mage",
+      "masterSha256": "bed815044d1bf93a18ba19fc6058b5f09c852263296f88b65bb36a97b43efe21",
+      "runtimeSourceSha256": "214385d90519a7643f6e594487b80fed91ef4fd73a7fcb1e18510bd2e0237d3d",
+      "transparentDerivativeSha256": "44110965372db4408c94466a0cbde9b29cf4af37b3271a9d45efe3be510d5f86"
+    },
+    {
+      "abilityId": "Deterrence",
+      "class": "Hunter",
+      "masterSha256": "fe4f5e42ce8b48fc7e6dcd71eba1ff5c99c911c3e3edb7ef763070e5ac4a189c",
+      "runtimeSourceSha256": "0d6c4d0e16dc59b68a18a57ce90f6c27663211f09454506b1f440f4b746b5b1f",
+      "transparentDerivativeSha256": "63e477c0e8ce0c8942e37b188dfa345702a93ae8842e2178513c1be5d11f0942"
+    },
+    {
+      "abilityId": "Dismantle",
+      "class": "Rogue",
+      "masterSha256": "ea8bb7c558b70ba01ce626e6559b4a34e11fcc5fc44813d04277c5226283d851",
+      "runtimeSourceSha256": "bed7412e0e8897600edbf2a76dbfda89dfcb78cba4db302d746b3e48e1d44dcc",
+      "transparentDerivativeSha256": "a5e42d8ab6baea6ac31956516d6e18a3fd52819886ecd074d7c7db4c2bc1340c"
+    },
+    {
+      "abilityId": "Fade",
+      "class": "Priest",
+      "masterSha256": "3102a5f2bdd4a4c5b98449848e1ead529308cac3de6352f00d89e580893f10cf",
+      "runtimeSourceSha256": "e1869ab27dfec6a652d356e086542c2962e8676a3729170ab1b2e63e60355319",
+      "transparentDerivativeSha256": "e3606943201a973a5833d12f243b58d7d6de4f6caf7856eb3d2423dca7230444"
+    },
+    {
+      "abilityId": "FearWard",
+      "class": "Priest",
+      "masterSha256": "521026f96850c72ef35285e6a72437041d1aa2707200ae1d6aef659d1696b604",
+      "runtimeSourceSha256": "94257ef5de217b32438cf5d2a30a1cdca366091c1f0321a33a6a75355bcc3b9d",
+      "transparentDerivativeSha256": "a5526f831acc0b60a41e3bf5b92720d3d2e21eed1060fff469eace49cd9e6c60"
+    },
+    {
+      "abilityId": "FeignDeath",
+      "class": "Hunter",
+      "masterSha256": "b4c564e824064e4b2d0106d60d91f08312ce227187e0c77c8928f1633824b4d9",
+      "runtimeSourceSha256": "a60b3cc2ca3d460954faf8022889ca6cda8c5f4c7b20a9aa8c294dfb88b23cc4",
+      "transparentDerivativeSha256": "b2b312ff63cfdbf4dde478ffd29c1117b6197912a910ded8ac778c4a4e4eedc0"
+    },
+    {
+      "abilityId": "Flare",
+      "class": "Hunter",
+      "masterSha256": "dc9ca535dd9e5dc0dc090714b89a58cc065ec9d09ae59da9297352e88ffd4d3a",
+      "runtimeSourceSha256": "86de29de45a1a0a07833b177a1a7dbeaa72e168c01bf14a5fc4bababab29b144",
+      "transparentDerivativeSha256": "414fb13b1052f875861377d4c1e829e197344f55a7a046885492fd6dd76d98a1"
+    },
+    {
+      "abilityId": "FrostTrap",
+      "class": "Hunter",
+      "masterSha256": "1e8e2c6f1becabbf6af9588a224eb836c142be4bde2abcaef639e0a3b4d5baf1",
+      "runtimeSourceSha256": "52c4fa407bbc5a1f12329ba0206bee34bed9fa98750e9b0ac236c015d36d6f2b",
+      "transparentDerivativeSha256": "60f562424866cc93269180831646700f0249ed800f69d3bd27f7e2df95056345"
+    },
+    {
+      "abilityId": "Garrote",
+      "class": "Rogue",
+      "masterSha256": "1b46fa6360126d2365bafb2e9ceb5f08eada628fc66421efdac852fbc3bd3735",
+      "runtimeSourceSha256": "7d377a8275d8e50f5daa821fbbaec00759642089788df1d590888366f25b2c17",
+      "transparentDerivativeSha256": "e385c6e85d0e427c6cc5879d93772dcd32ba179ef9069424bfeb1dc2f3630583"
+    },
+    {
+      "abilityId": "Gouge",
+      "class": "Rogue",
+      "masterSha256": "c7b04a5beee4efabe30f46719e74ccf3c8ca127c80f2c89adb950f35a88348e2",
+      "runtimeSourceSha256": "1fea0267225cebca98fed96abf0d684a99dac07838f4fe01b96d6affa3fff99b",
+      "transparentDerivativeSha256": "2dd49937b743fcb511d89df9406ecb2dffaec53b88de98b36e5619e5ac21b917"
+    },
+    {
+      "abilityId": "IceArmor",
+      "class": "Mage",
+      "masterSha256": "a8c930252cf6221ff7d13d9fd39608df9edada8641d163af9c2e9222234f9a06",
+      "runtimeSourceSha256": "b9a09aceece2006d8714b75916e1ab9e901b49950c977acc9f70ef339fc485fc",
+      "transparentDerivativeSha256": "df563588c01ac529a6a06a8ff2522374b89435d18e964d536b6347ab6425047f"
+    },
+    {
+      "abilityId": "IceBlock",
+      "class": "Mage",
+      "masterSha256": "4cca2a9726d99d6e1e28e415f006b0ed4e892a6a7e99a8cddb4e5bc0d682710d",
+      "runtimeSourceSha256": "f9a328ffad80057161d32c224943df8cf83f520e53335a57f03300097fd8ac80",
+      "transparentDerivativeSha256": "6b3e75483a92ef01e3c1a9a60cdf9df23b51351223fbae37ef91730f478849b6"
+    },
+    {
+      "abilityId": "InnerFocus",
+      "class": "Priest",
+      "masterSha256": "3f48892cc2d34c63aa6494f27562f778bf0f27f313e4478c8e7525ace664d288",
+      "runtimeSourceSha256": "bd5f7da6491e86e8687ea63ef1f7051bcc82eb4d516e8d860c702382057ed969",
+      "transparentDerivativeSha256": "3efb8932af0411f4e24bfc37476e221e1715eebf83d89b2c731e9fbb50ef9e84"
+    },
+    {
+      "abilityId": "KillShot",
+      "class": "Hunter",
+      "masterSha256": "b97421296bddbc12ef991f877b654ca494964e572b5ea4acc188c755fe43d203",
+      "runtimeSourceSha256": "d5c24e2bf997216dbb84a9445681041cbfd90bd1a1ed2d6d91ed7a875daccd15",
+      "transparentDerivativeSha256": "27727f91c35b10d830ba80d971d92af516dc472dd29b5389e5643af844b6a146"
+    },
+    {
+      "abilityId": "MageArmor",
+      "class": "Mage",
+      "masterSha256": "82f26b265917d29fa5b5999b5fa804fe0fc61f229b8cffaf66b450f406b3df9f",
+      "runtimeSourceSha256": "be8ed3daaba077ad9c25c5edf9a77cdef8435bfe817417a31dbfaa40d2bff0c3",
+      "transparentDerivativeSha256": "6bfe98705d86df9cf5e920ff854d68ff80ab9e6bb9b687f55177bf28993c57d3"
+    },
+    {
+      "abilityId": "ManaBurn",
+      "class": "Priest",
+      "masterSha256": "a64b150e13a964c6906d5a648099908809f9ab81082d55e02b1ebe476e368e3c",
+      "runtimeSourceSha256": "fa2d52bf62e26c3b00186a65aa6c5af05f3b77889eecab4ec66bee22923a7827",
+      "transparentDerivativeSha256": "6db37919c4f27a54d58ab5e0e7fe7421bfbd41a8280aeb3e7e4f4aa574604751"
+    },
+    {
+      "abilityId": "ManaShield",
+      "class": "Mage",
+      "masterSha256": "ad959528c4434052db4bdab77bf7694869c44ca305364b5de913e79109d1b3ad",
+      "runtimeSourceSha256": "6a9148a6cd26b7c21b2e41054f854c53ec2780beaba14a0a65dba22d89eda554",
+      "transparentDerivativeSha256": "d56d192b3a8fd838499f75ac616137c63f025a19b6f09cd1df031db992a5bde2"
+    },
+    {
+      "abilityId": "MassDispel",
+      "class": "Priest",
+      "masterSha256": "7edae5400c4de7f1b57a40dfdb99cca8d2389dfe7d8e6ae2a679262168b5967d",
+      "runtimeSourceSha256": "d0a57a4ecb3853afd3df577583fae9dc200b469f7f9f3a9b2c95dffd18237249",
+      "transparentDerivativeSha256": "2ac547b5cce0955961ce30f54c951bc7992d5dcec4a425f145affba0a1d30936"
+    },
+    {
+      "abilityId": "MastersCall",
+      "class": "Hunter",
+      "masterSha256": "f6109ea54ce190392cd6d3010b4b17e72e9e2d8ad85c76b8685daf24b9ca4800",
+      "runtimeSourceSha256": "add01c9c69f984a6c739f5dad2812402813b7969c9db398bb12737f64b339611",
+      "transparentDerivativeSha256": "1bc08bc8f680a1510e9309dfb5b2ce9bf0acbd003267d81a4b5d2d65f5a47c98"
+    },
+    {
+      "abilityId": "MoltenArmor",
+      "class": "Mage",
+      "masterSha256": "d84b195d750af47b1b58b589f303fb4e1f4bd19952448a4e9eb3e1934000631a",
+      "runtimeSourceSha256": "2b450e577abc5153335f940272537fb395a581511b72fa196cb430483db62947",
+      "transparentDerivativeSha256": "f6d398f55ba193b3b2fac20d538f5611d3708950d1011bfc75d160e11153753b"
+    },
+    {
+      "abilityId": "PrayerOfMending",
+      "class": "Priest",
+      "masterSha256": "33b59f55941af4de0fd96408888a036fa81da109f4493ab7ece6bb0ec63a6835",
+      "runtimeSourceSha256": "e8ee707c8803f5723552ebda685794bb35965f27c01a6174c87ba17ecb1ce485",
+      "transparentDerivativeSha256": "0294f81b7af475e177f3c1837ffecf38664b32e88470ce566651eb0382808e78"
+    },
+    {
+      "abilityId": "Preparation",
+      "class": "Rogue",
+      "masterSha256": "b011c39486fb6a96d601b5aa62d4a7370f5df98e4a0676c3d43b992aeebe9944",
+      "runtimeSourceSha256": "4b8e61d50f7e494bf518274fc154edc06b5c3b83eee50bee21c3be3fe725a23c",
+      "transparentDerivativeSha256": "f9bb4c1055f8f44a27c9777b6a9d17f4c5401a1228bcdc1b05639548a9c2c097"
+    },
+    {
+      "abilityId": "PsychicHorror",
+      "class": "Priest",
+      "masterSha256": "6f14b4878ecf9cb653d1f900a49e37d51ebf9b52f75f2e342ab76cf58cda299e",
+      "runtimeSourceSha256": "7279a7dad1a6c0163720b7e28afcde1e1ca59c04b5fab6fe24925d27178cb1d3",
+      "transparentDerivativeSha256": "12931e45be58587eff4919721eda779732093ffd94979cab7d704d2ef576198f"
+    },
+    {
+      "abilityId": "Pyroblast",
+      "class": "Mage",
+      "masterSha256": "ae2746ffb44ca3e1b40c3b7728ff4e30d95161e84ccf40cc0e8dc18b7aeab70b",
+      "runtimeSourceSha256": "96581195d064cb8bb3f7e8af4c07d2ae75e194b6b7fffa2e3864f83734111e1e",
+      "transparentDerivativeSha256": "0443b01d38e7f1853fe663adb2f5ece194cd33c34a06cd513941e21e565f0ddd"
+    },
+    {
+      "abilityId": "Readiness",
+      "class": "Hunter",
+      "masterSha256": "13c76376486e67abead145e0366f48dd8c7bf058dac1ae2cdc014a654f36e028",
+      "runtimeSourceSha256": "52910d65933987e237d7f569954f2135bbce4e7d4d40697e4aa3ffc6d63cc573",
+      "transparentDerivativeSha256": "4108cb64a7a781ffef4dd4e3879588ab68f51071e4f1aada7c2a8aaeba27ff29"
+    },
+    {
+      "abilityId": "RoarOfSacrifice",
+      "class": "Hunter",
+      "masterSha256": "8ce7e75a5f11814be63b0de2fda80b289f4e4f327716fca980d8f15fbd06b9a4",
+      "runtimeSourceSha256": "3b3150c29fed347cda49b379e2cbf79b924e022894ddeb2d067fbdb3ea22da5b",
+      "transparentDerivativeSha256": "c29914de475207107413090bc891b45d04034d1c06cb06817208f9e9695fe5bb"
+    },
+    {
+      "abilityId": "Sap",
+      "class": "Rogue",
+      "masterSha256": "383311efe285593ec2d5bdc7a1d1f26eb0756f8cb395a56ea565cf83ca0f7c48",
+      "runtimeSourceSha256": "7b00acaf46ff893c82bb42ee8dc9694055cef8982b00406a60e777b88e29348c",
+      "transparentDerivativeSha256": "17f4735dddf6948c5aa91ab3220bd174b5d435462b09280550c348e24091094a"
+    },
+    {
+      "abilityId": "ScatterShot",
+      "class": "Hunter",
+      "masterSha256": "015b47c703da4c02a6f3a34ce462db887180e4fe12d34aa311f0091a85ad9a69",
+      "runtimeSourceSha256": "9861860171f0eb8c9a70297d0995149b19882439a0d70755f07bf017d6356578",
+      "transparentDerivativeSha256": "d4612edcc92d5156e89a28d65ba265b8b186d9c19f64d68057f09986c4181879"
+    },
+    {
+      "abilityId": "Scorch",
+      "class": "Mage",
+      "masterSha256": "57ae1bd7f9bc9ca5760603805aaede99bbb61133c0e621ab59bf8f4325fcf5b7",
+      "runtimeSourceSha256": "cd13a3bd78ec30d56f31df95942a9fb8f7d68c6a2a2f00b7adf4fe77229f7b41",
+      "transparentDerivativeSha256": "5d3eeb7795003590756f78e6262e9141c2af9ec5a877001fd30510b8491eef2e"
+    },
+    {
+      "abilityId": "ScorpidSting",
+      "class": "Hunter",
+      "masterSha256": "9a1f67c7d75ef77cbc2ef16007a0493ac7a0176d2a46a418182b6e075dff7076",
+      "runtimeSourceSha256": "d46b2a135e31864ef6e6ac3db118f2f887f0181ae7c47c146acf8508bf0c6682",
+      "transparentDerivativeSha256": "469867ec63d730e47ce602861f36df3f4f6ee0cf5172aead285d40ced6ef0250"
+    },
+    {
+      "abilityId": "Silence",
+      "class": "Priest",
+      "masterSha256": "903ebcff3777991d486fe35c9202da701b72a5ccf43a936c196411e6e5bf913c",
+      "runtimeSourceSha256": "205c545550798248bc2e71f438791765ea48e136f4713b210baf4883d766e5ab",
+      "transparentDerivativeSha256": "25d3a2ff5e73d3ab87c57a9817cc08105da59d8272ad8678d66fb3b0ddb5271d"
+    },
+    {
+      "abilityId": "SilencingShot",
+      "class": "Hunter",
+      "masterSha256": "3891320f5607bbe32711e27b95759f17a64f39c2d2a413dc5514f5591caa3377",
+      "runtimeSourceSha256": "6d91765c6a3a94285a0e7af92ebb585172a02838992fbe599ee753ea0d42a2e1",
+      "transparentDerivativeSha256": "848f2f11455f2c7affd2f5c2e665036e7294f7f5d494a6d84cc41a0d8b304ad9"
+    },
+    {
+      "abilityId": "Spellsteal",
+      "class": "Mage",
+      "masterSha256": "a8238579b42cea2c810c901b73a8050fa4a10083952e45195a33080302f8c69e",
+      "runtimeSourceSha256": "a2375c36d36bba1197d4f411932eabffd7a2086181c3cbd36269c3fc5f3f4e12",
+      "transparentDerivativeSha256": "2dd1d1989439b2e362d60c64db1ac810a04b68cf96d43d36cea410f2d255c3de"
+    },
+    {
+      "abilityId": "SpiderWeb",
+      "class": "Hunter",
+      "masterSha256": "242ba976fba1380c7b884913c07c20cfd182a63ad9d1377697eab72edde19aed",
+      "runtimeSourceSha256": "cf1f5fa006bc08e22b0e5eae3cb2312138b01252dc552cee725631a7c2fb3d2b",
+      "transparentDerivativeSha256": "7b0b0b53b290928acd074a95204e395d14cae4227f823202171f158dd11a7202"
+    },
+    {
+      "abilityId": "Sprint",
+      "class": "Rogue",
+      "masterSha256": "d49eee835b7f25d6239be36d34ac2bc38a5d0d459505a9b9dcde51f54d3836ee",
+      "runtimeSourceSha256": "bc19efc47a65a79755cafc44fd091e120a8c1e71e8e56aea0f4768d0c80c5d4f",
+      "transparentDerivativeSha256": "e5ff70049f77f07b60a63dbe7a39af072595959d78729a298ffcf548844bf560"
+    },
+    {
+      "abilityId": "TranquilizingShot",
+      "class": "Hunter",
+      "masterSha256": "ce9d191a74ff6e70a32c83fbaaba05cf0d1efb571e6e6f348b383ec953b1d27d",
+      "runtimeSourceSha256": "e0f44254db33b94d5434b3262c7b5d65e520c53d270a5f25ed2f62b77dc592d5",
+      "transparentDerivativeSha256": "5be80cad01d0f57a35c7fa68dcacba907d2cf56359945114bbc137a39c19b702"
+    },
+    {
+      "abilityId": "VampiricTouch",
+      "class": "Priest",
+      "masterSha256": "32653af1e1631c8ba123ba3516b53db6d548a2d11f8339e9ae9ed5d99269c858",
+      "runtimeSourceSha256": "b0700377827db58bfdbfbdfab8042c1d7026fc06f718c7b4b8d1dfd235a97dda",
+      "transparentDerivativeSha256": "1009d8018c83c334f2e9d63964ee66000524abbf69d33ead423a385eff29cb21"
+    },
+    {
+      "abilityId": "WaterElementalFreeze",
+      "class": "Mage",
+      "masterSha256": "41293edbd8cfce1f545a8edcef2599ebe9c7c6d837444e49738e558d6abe5007",
+      "runtimeSourceSha256": "6013713e33794766745b5ed36a7fdf258e615587ebf1768cac37b659fecf1db4",
+      "transparentDerivativeSha256": "d296e2d29c1daec0807db42619dbc7da2e523d4e3ac6ac91bcd40727aa2aed8c"
+    },
+    {
+      "abilityId": "WingClip",
+      "class": "Hunter",
+      "masterSha256": "74a2ca9bdb0637f08c244a9dd474c48459f95f76ee7c2d3a02d266c557b8bd11",
+      "runtimeSourceSha256": "ee69677981490661eeeffac602453a12e54cbb2aecc267fe8945e91105e57e5a",
+      "transparentDerivativeSha256": "0dfb3c4cc9ac605288d36709233662dde733511fba7305d81db5fb907b89d719"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "intakeId": "POLYHAVEN-2026-005",
+  "assetId": "fern_02",
+  "author": "Rob Tuytel (scanning), Rico Cilliers (modeling)",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "legalCodeUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt",
+  "sourceUrl": "https://polyhaven.com/a/fern_02",
+  "apiUrl": "https://api.polyhaven.com/files/fern_02",
+  "acquiredUtc": "2026-09-07",
+  "status": "TECH_REVIEW",
+  "totalSourceBytes": 3439792,
+  "files": [
+    {
+      "path": "fern_02_1k.fbx.source",
+      "originalName": "fern_02_1k.fbx",
+      "role": "source_model",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/fbx/1k/fern_02/fern_02_1k.fbx",
+      "bytes": 223596,
+      "md5": "65fd395dca9867cfa5e4d91e3fcc38df",
+      "sha256": "6d8238b9cc1bbb5f5766396c2db26f2219c0d0e5ca226fb81dcc44bdb35045e8"
+    },
+    {
+      "path": "fern_02_diff_2k.jpg",
+      "originalName": "fern_02_diff_2k.jpg",
+      "role": "Diffuse",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fern_02/fern_02_diff_2k.jpg",
+      "bytes": 993703,
+      "md5": "ba8bbb9dc9ff55bdc081565cd926d776",
+      "sha256": "9ee18172170728050871772e2cd6d8d37b52f9138e61b49b04486623f9caf84b"
+    },
+    {
+      "path": "fern_02_nor_gl_2k.jpg",
+      "originalName": "fern_02_nor_gl_2k.jpg",
+      "role": "nor_gl",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fern_02/fern_02_nor_gl_2k.jpg",
+      "bytes": 1365615,
+      "md5": "00936dff4661dc9fe1f2fbe6c000615a",
+      "sha256": "dfe1ac4a428d21f7c134411500177d66b8dd800c8fec6f0040c50f44414a777b"
+    },
+    {
+      "path": "fern_02_rough_2k.jpg",
+      "originalName": "fern_02_rough_2k.jpg",
+      "role": "Rough",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/jpg/2k/fern_02/fern_02_rough_2k.jpg",
+      "bytes": 626789,
+      "md5": "8314186165be744ae79952baf4388491",
+      "sha256": "33d8284959dae53a3eeb11d4a38199320e9a64e2710515b2f0a1a71be4cae908"
+    },
+    {
+      "path": "fern_02_alpha_2k.png",
+      "originalName": "fern_02_alpha_2k.png",
+      "role": "Alpha",
+      "url": "https://dl.polyhaven.org/file/ph-assets/Models/png/2k/fern_02/fern_02_alpha_2k.png",
+      "bytes": 230089,
+      "md5": "ff18f7e8e869c58eac8f9c7d7c519f4a",
+      "sha256": "f51eb9b8f9f4b25a882f8fe12d1ef53ba69448bac7e71396ec1f05b684e9ea75"
+    }
+  ]
+}
+

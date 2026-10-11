@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d58d86e6e5f64f03bba568368bc14122, type: 3}
+  m_Name: ArenaCatalog
+  m_EditorClassIdentifier: SessionRpg.Unity::SessionRpg.Unity.Arenas.ArenaCatalogAsset
+  _entries:
+  - _contentId:
+      _value: ashen_stronghold
+    _mode: 3
+    _isDefaultForMode: 1
+    _presentationPrefab: {fileID: 2841933454321800163, guid: e46e63e76949d49a0b9412f399c5c3f4, type: 3}
+    _presentationScenePath: 
+  - _contentId:
+      _value: ember_vault
+    _mode: 2
+    _isDefaultForMode: 1
+    _presentationPrefab: {fileID: 6902812187114749940, guid: 896da0f70b0bd41a392f6a02e3120b8d, type: 3}
+    _presentationScenePath: 
+  - _contentId:
+      _value: rift_crucible
+    _mode: 1
+    _isDefaultForMode: 1
+    _presentationPrefab: {fileID: 3948572004088931203, guid: c32673b8bebd84ab5b35bbb93aca20b4, type: 3}
+    _presentationScenePath: 

@@ -1,0 +1,84 @@
+{
+  "schemaVersion": 1,
+  "worldId": 1,
+  "zoneId": 1,
+  "zoneKey": "ashen_causeway",
+  "displayName": "Ashen Causeway",
+  "contentVersion": 3,
+  "chunkSizeMeters": 64,
+  "loadRadius": 1,
+  "retainRadius": 2,
+  "maxLoadedChunks": 7,
+  "chunks": [
+    {
+      "x": -3,
+      "z": 0,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_-3_0.unity",
+      "generationSeed": 104729,
+      "biomeRecipeId": "ashen_causeway_volcanic",
+      "poiRecipeIds": [
+        "west_refuge"
+      ]
+    },
+    {
+      "x": -2,
+      "z": 0,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_-2_0.unity",
+      "generationSeed": 104743,
+      "biomeRecipeId": "ashen_causeway_volcanic",
+      "poiRecipeIds": [
+        "cinder_approach"
+      ]
+    },
+    {
+      "x": -1,
+      "z": 0,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_-1_0.unity",
+      "generationSeed": 104759,
+      "biomeRecipeId": "ashen_causeway_volcanic",
+      "poiRecipeIds": [
+        "broken_gate"
+      ]
+    },
+    {
+      "x": 0,
+      "z": 0,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_0_0.unity",
+      "generationSeed": 104761,
+      "biomeRecipeId": "ashen_causeway_volcanic",
+      "poiRecipeIds": [
+        "collapsed_court"
+      ]
+    },
+    {
+      "x": 1,
+      "z": 0,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_1_0.unity",
+      "generationSeed": 104773,
+      "biomeRecipeId": "ashen_causeway_volcanic",
+      "poiRecipeIds": [
+        "ossuary_bend"
+      ]
+    },
+    {
+      "x": 2,
+      "z": 0,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_2_0.unity",
+      "generationSeed": 104779,
+      "biomeRecipeId": "ashen_causeway_volcanic",
+      "poiRecipeIds": [
+        "reliquary_yard"
+      ]
+    },
+    {
+      "x": 3,
+      "z": 0,
+      "scenePath": "Assets/SessionRpg/Content/Worlds/AshenCauseway/Chunks/Chunk_3_0.unity",
+      "generationSeed": 104789,
+      "biomeRecipeId": "ashen_causeway_volcanic",
+      "poiRecipeIds": [
+        "east_watch"
+      ]
+    }
+  ]
+}

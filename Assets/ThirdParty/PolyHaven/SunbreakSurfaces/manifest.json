@@ -1,0 +1,293 @@
+{
+  "schemaVersion": 1,
+  "intakeId": "POLYHAVEN-2026-002",
+  "displayName": "Sunbreak close-scale PBR surfaces",
+  "provider": "Poly Haven",
+  "providerLicensePage": "https://polyhaven.com/license",
+  "license": "CC0-1.0",
+  "retrievedOn": "2026-09-05",
+  "retrievalMethod": "Bounded one-off public API metadata lookup and untouched official dl.polyhaven.org CDN downloads; no runtime API dependency",
+  "userAgent": "SessionRpg-Sunbreak-AssetIntake/1.0",
+  "apiTerms": "https://github.com/Poly-Haven/Public-API/blob/master/ToS.md",
+  "reviewStatus": "TECH_REVIEW",
+  "runtimeStatus": "Local Sunbreak authoring evaluation only; not accepted production art or physical-device evidence",
+  "sourceBytes": 41996162,
+  "retainedLicense": {
+    "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/CC0-1.0.txt",
+    "sourceUrl": "https://creativecommons.org/publicdomain/zero/1.0/legalcode.txt",
+    "bytes": 7048,
+    "sha256": "a2010f343487d3f7618affe54f789f5487602331c0a8d03f49e9a7c547cf0499"
+  },
+  "importOwner": "Assets/SessionRpg/Editor/Authoring/SunbreakScannedSurfaceAuthoring.cs",
+  "excluded": [
+    "Webpage images and previews",
+    "All resolutions other than selected 2K JPEG original four sets and 1K JPEG revision-two ground sets",
+    "Displacement/height and DirectX normal maps",
+    "AO and combined ARM maps",
+    "Blend/glTF/MaterialX/ZIP packages"
+  ],
+  "assets": [
+    {
+      "assetId": "sparse_grass",
+      "displayName": "Sparse Grass",
+      "creator": "Amal Kumar",
+      "assetPage": "https://polyhaven.com/a/sparse_grass",
+      "metadataUrl": "https://api.polyhaven.com/info/sparse_grass",
+      "filesMetadataUrl": "https://api.polyhaven.com/files/sparse_grass",
+      "physicalWidthMeters": 2,
+      "physicalHeightMeters": 2,
+      "sourceResolution": "2K",
+      "widthPixels": 2048,
+      "heightPixels": 2048,
+      "files": [
+        {
+          "role": "diffuse",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/sparse_grass/sparse_grass_diff_2k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/sparse_grass/sparse_grass_diff_2k.jpg",
+          "bytes": 3733797,
+          "officialMd5": "b181e9c61bae87c1bb9b14eecd767d65",
+          "sha256": "3b655de96161164bf2324e136b3409ad8417c9f94750bc008e9c93ee507c2fac",
+          "colorSpace": "sRGB"
+        },
+        {
+          "role": "normal_OpenGL_positive_Y",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/sparse_grass/sparse_grass_nor_gl_2k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/sparse_grass/sparse_grass_nor_gl_2k.jpg",
+          "bytes": 5892473,
+          "officialMd5": "8ec54ff3b639e6e044ea83792d7c49b0",
+          "sha256": "5539a5913653a106a4e8a699a1d288f0b41907775b5fb36156ef5be2e937718b",
+          "colorSpace": "linear"
+        },
+        {
+          "role": "roughness",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/sparse_grass/sparse_grass_rough_2k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/sparse_grass/sparse_grass_rough_2k.jpg",
+          "bytes": 1729786,
+          "officialMd5": "446cbe6254b1b210de44ef7c53da6204",
+          "sha256": "b023f187999956449b5f25df19f4eaae1c891f474e0a599b23d986118fe706d7",
+          "colorSpace": "linear"
+        }
+      ]
+    },
+    {
+      "assetId": "rocks_ground_02",
+      "displayName": "Rocks Ground 02",
+      "creator": "Rob Tuytel",
+      "assetPage": "https://polyhaven.com/a/rocks_ground_02",
+      "metadataUrl": "https://api.polyhaven.com/info/rocks_ground_02",
+      "filesMetadataUrl": "https://api.polyhaven.com/files/rocks_ground_02",
+      "physicalWidthMeters": 2,
+      "physicalHeightMeters": 2,
+      "sourceResolution": "2K",
+      "widthPixels": 2048,
+      "heightPixels": 2048,
+      "files": [
+        {
+          "role": "diffuse",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/rocks_ground_02/rocks_ground_02_col_2k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rocks_ground_02/rocks_ground_02_col_2k.jpg",
+          "bytes": 3224700,
+          "officialMd5": "209e3774a61a94460574e74bed8de7e1",
+          "sha256": "a2a4fc4e10a307ca6e345e0df50d6115ba1058174de915bfcfdd5ff3f49dc2fa",
+          "colorSpace": "sRGB"
+        },
+        {
+          "role": "normal_OpenGL_positive_Y",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/rocks_ground_02/rocks_ground_02_nor_gl_2k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rocks_ground_02/rocks_ground_02_nor_gl_2k.jpg",
+          "bytes": 5387529,
+          "officialMd5": "2d602f31a283804983f726e025f3b0f1",
+          "sha256": "bde35636a0c548e57006917287e067d11abf3bfac2d70373162deb171ca9a4ef",
+          "colorSpace": "linear"
+        },
+        {
+          "role": "roughness",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/rocks_ground_02/rocks_ground_02_rough_2k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rocks_ground_02/rocks_ground_02_rough_2k.jpg",
+          "bytes": 1810785,
+          "officialMd5": "c631d8173d3e2654a33b8e9a4d8a356a",
+          "sha256": "c5b54993717852963382876bd0558c831af389b00a2dbd40317c51ff8b9c0817",
+          "colorSpace": "linear"
+        }
+      ]
+    },
+    {
+      "assetId": "rock_08",
+      "displayName": "Rock 08",
+      "creator": "Rob Tuytel",
+      "assetPage": "https://polyhaven.com/a/rock_08",
+      "metadataUrl": "https://api.polyhaven.com/info/rock_08",
+      "filesMetadataUrl": "https://api.polyhaven.com/files/rock_08",
+      "physicalWidthMeters": 1.5,
+      "physicalHeightMeters": 1.5,
+      "sourceResolution": "2K",
+      "widthPixels": 2048,
+      "heightPixels": 2048,
+      "files": [
+        {
+          "role": "diffuse",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/rock_08/rock_08_diff_2k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_08/rock_08_diff_2k.jpg",
+          "bytes": 2633011,
+          "officialMd5": "39e2cc33265a24439ed6b12096971f49",
+          "sha256": "1d55cc7c6357ad30b9486c38f280c6da095a0a07246b2659403a3a36006db521",
+          "colorSpace": "sRGB"
+        },
+        {
+          "role": "normal_OpenGL_positive_Y",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/rock_08/rock_08_nor_gl_2k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_08/rock_08_nor_gl_2k.jpg",
+          "bytes": 3406692,
+          "officialMd5": "df59e1c184c092d8d9c1b818995f9646",
+          "sha256": "5577d9766de427110c43b4d50be021389599421fd3f0249b1ee07e40bf27738e",
+          "colorSpace": "linear"
+        },
+        {
+          "role": "roughness",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/rock_08/rock_08_rough_2k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/rock_08/rock_08_rough_2k.jpg",
+          "bytes": 1242781,
+          "officialMd5": "527dbf400e08953f74bfcda8839bf7dd",
+          "sha256": "7605d6f529bed165c52486d221f2778632e34012f9cb06645377e374cad0b647",
+          "colorSpace": "linear"
+        }
+      ]
+    },
+    {
+      "assetId": "bark_brown_02",
+      "displayName": "Bark Brown 02",
+      "creator": "Rob Tuytel",
+      "assetPage": "https://polyhaven.com/a/bark_brown_02",
+      "metadataUrl": "https://api.polyhaven.com/info/bark_brown_02",
+      "filesMetadataUrl": "https://api.polyhaven.com/files/bark_brown_02",
+      "physicalWidthMeters": 1,
+      "physicalHeightMeters": 1,
+      "sourceResolution": "2K",
+      "widthPixels": 2048,
+      "heightPixels": 2048,
+      "files": [
+        {
+          "role": "diffuse",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/bark_brown_02/bark_brown_02_diff_2k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/bark_brown_02/bark_brown_02_diff_2k.jpg",
+          "bytes": 2356592,
+          "officialMd5": "11a2a6039bb5b93f12dcf1689838545b",
+          "sha256": "285051e34826ace29f4ab438ad35cc1201b2aae0a6157a5f3c0bf6667bbc539e",
+          "colorSpace": "sRGB"
+        },
+        {
+          "role": "normal_OpenGL_positive_Y",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/bark_brown_02/bark_brown_02_nor_gl_2k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/bark_brown_02/bark_brown_02_nor_gl_2k.jpg",
+          "bytes": 3707907,
+          "officialMd5": "39db6c4574fb58de1ad164442e9d6287",
+          "sha256": "aaba4529c3167a7811b4dbf5b4327d054a166c2fc8ea08ebd249a2692adace41",
+          "colorSpace": "linear"
+        },
+        {
+          "role": "roughness",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/bark_brown_02/bark_brown_02_rough_2k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/bark_brown_02/bark_brown_02_rough_2k.jpg",
+          "bytes": 1236654,
+          "officialMd5": "1c17004a7262d26d3867198a8fd0e8c1",
+          "sha256": "adafcab150c1ca99150c77198329e251437dc00fa1f66019f75624366926996e",
+          "colorSpace": "linear"
+        }
+      ]
+    },
+    {
+      "assetId": "leafy_grass",
+      "displayName": "Leafy Grass",
+      "creator": "Charlotte Baglioni",
+      "assetPage": "https://polyhaven.com/a/leafy_grass",
+      "metadataUrl": "https://api.polyhaven.com/info/leafy_grass",
+      "filesMetadataUrl": "https://api.polyhaven.com/files/leafy_grass",
+      "physicalWidthMeters": 2,
+      "physicalHeightMeters": 2,
+      "sourceResolution": "1K",
+      "widthPixels": 1024,
+      "heightPixels": 1024,
+      "files": [
+        {
+          "role": "diffuse",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/leafy_grass/leafy_grass_diff_1k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_diff_1k.jpg",
+          "bytes": 1195394,
+          "officialMd5": "0dbc071e91d6905edfcfbe8eb785a1ab",
+          "sha256": "cfa40bc9d9417d1852db8753a8d5917f110c40101179f63543c382e39bc05e4a",
+          "colorSpace": "sRGB"
+        },
+        {
+          "role": "normal_OpenGL_positive_Y",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/leafy_grass/leafy_grass_nor_gl_1k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_nor_gl_1k.jpg",
+          "bytes": 1466049,
+          "officialMd5": "8279e096e204ea326d57a318869f99df",
+          "sha256": "832328216adc0a7e1f70a31d5ee48c9ab7f2152d83816122736cf42ac4b2ebd6",
+          "colorSpace": "linear"
+        },
+        {
+          "role": "roughness",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/leafy_grass/leafy_grass_rough_1k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_rough_1k.jpg",
+          "bytes": 511385,
+          "officialMd5": "05f6bb1383e12b327727d313c5899cf2",
+          "sha256": "0c2a1d91aacb8e54a496051b59854e51e456fe858abeade778e308359ef16463",
+          "colorSpace": "linear"
+        }
+      ]
+    },
+    {
+      "assetId": "dirt_floor",
+      "displayName": "Dirt Floor",
+      "creator": "eye-candy.xyz",
+      "assetPage": "https://polyhaven.com/a/dirt_floor",
+      "metadataUrl": "https://api.polyhaven.com/info/dirt_floor",
+      "filesMetadataUrl": "https://api.polyhaven.com/files/dirt_floor",
+      "physicalWidthMeters": 2.07,
+      "physicalHeightMeters": 2.07,
+      "sourceResolution": "1K",
+      "widthPixels": 1024,
+      "heightPixels": 1024,
+      "files": [
+        {
+          "role": "diffuse",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/dirt_floor/dirt_floor_diff_1k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dirt_floor/dirt_floor_diff_1k.jpg",
+          "bytes": 903417,
+          "officialMd5": "8cc8bfdfb74fd7761c6d518d13dc4e45",
+          "sha256": "6c2e7f1c5eab8239fec561f255c607d0e3a86046925ba3a8b9340805efc1ab62",
+          "colorSpace": "sRGB"
+        },
+        {
+          "role": "normal_OpenGL_positive_Y",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/dirt_floor/dirt_floor_nor_gl_1k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dirt_floor/dirt_floor_nor_gl_1k.jpg",
+          "bytes": 1167485,
+          "officialMd5": "c0af23552b3c47498bec6ee9ff9fe194",
+          "sha256": "9481dc2cee97b240ca10dc1cd60fec834a85e455aaa7d2a584396ea10210c2c0",
+          "colorSpace": "linear"
+        },
+        {
+          "role": "roughness",
+          "path": "Assets/ThirdParty/PolyHaven/SunbreakSurfaces/dirt_floor/dirt_floor_rough_1k.jpg",
+          "sourceUrl": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/dirt_floor/dirt_floor_rough_1k.jpg",
+          "bytes": 389725,
+          "officialMd5": "b227b1c9150be1e4303d6a45f757a990",
+          "sha256": "093166ffda063b8fcf04ec645e1e12c24811f614468ba378437a3535c3c53f57",
+          "colorSpace": "linear"
+        }
+      ]
+    }
+  ],
+  "revision": 2,
+  "activeGroundSourceAssets": [
+    "leafy_grass",
+    "dirt_floor"
+  ],
+  "comparisonGroundSourceAssets": [
+    "sparse_grass",
+    "rocks_ground_02"
+  ],
+  "revisionReason": "Actual gameplay-camera review rejected orange-brown sparse-grass ground and repeating bright pebble motifs; retained originals and added greener close-scale grass plus fine dirt without modifying delivered images."
+}

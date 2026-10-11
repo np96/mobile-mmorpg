@@ -1,0 +1,31 @@
+# Preserve immutable binary source bytes; no Git LFS client is required.
+*.png -text
+*.jpg -text
+*.jpeg -text
+*.exr -text
+*.hdr -text
+*.fbx -text
+*.blend -text
+*.blend.source -text
+*.wav -text
+*.ogg -text
+
+*.cs text eol=lf
+*.sh text eol=lf
+*.py text eol=lf
+
+# Unity's serializer emits spaces after empty YAML values. Do not hand-format it.
+*.unity whitespace=-blank-at-eol
+*.prefab whitespace=-blank-at-eol
+*.controller whitespace=-blank-at-eol
+*.asset whitespace=-blank-at-eol
+*.mat whitespace=-blank-at-eol
+*.meta whitespace=-blank-at-eol
+*.anim whitespace=-blank-at-eol
+
+# Preserve the accepted prompt provenance record byte-for-byte.
+SourceArt/UI/AbilityIconsArenaV2/Rogue.PROMPTS.md whitespace=-blank-at-eof
+Assets/SessionRpg/SourceArt/Environment/SunbreakNaturalV1/PROVENANCE.md whitespace=-blank-at-eof
+
+# Preserve upstream licenses, provenance and source formatting verbatim.
+Assets/ThirdParty/** whitespace=-blank-at-eol,-blank-at-eof

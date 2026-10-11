@@ -1,0 +1,353 @@
+{
+  "schemaVersion": 1,
+  "scene": "Assets/SessionRpg/Scenes/Bootstrap.unity",
+  "mode": "Arena/EmberVault/Training/PveLeveling",
+  "purpose": "Bounded, repeatable presentation review; not gameplay or performance certification.",
+  "captureContract": {
+    "camera": "per-mode-bounded-elevated-strategy-follow",
+    "maximumTotalCaptures": 50,
+    "maximumScenarioDurationSeconds": 240,
+    "arenaYawDegrees": {
+      "center": 90,
+      "minimum": 30,
+      "maximum": 150
+    },
+    "requiredArenaCameraStates": [
+      {
+        "id": "authored-default",
+        "yawDegrees": 90
+      },
+      {
+        "id": "bounded-minimum",
+        "yawDegrees": 30
+      },
+      {
+        "id": "bounded-maximum",
+        "yawDegrees": 150
+      }
+    ],
+    "bossYawDegrees": {
+      "authoredDefault": 0,
+      "center": 15,
+      "negativeEndpoint": 325,
+      "positiveEndpoint": 65,
+      "maximumOffset": 50
+    },
+    "requiredBossCameraStates": [
+      {
+        "id": "authored-default",
+        "yawDegrees": 0
+      },
+      {
+        "id": "bounded-negative-endpoint",
+        "yawDegrees": 325
+      },
+      {
+        "id": "bounded-positive-endpoint",
+        "yawDegrees": 65
+      }
+    ],
+    "aspectRatios": [
+      {
+        "id": "16:9",
+        "referenceResolution": "1920x1080"
+      },
+      {
+        "id": "20:9",
+        "referenceResolution": "2400x1080"
+      },
+      {
+        "id": "2.4:1",
+        "referenceResolution": "2592x1080"
+      }
+    ],
+    "requiredColorPasses": [
+      "normal",
+      "desaturated-review"
+    ],
+    "desaturatedReviewDerivedFromNormalCaptures": true,
+    "rules": [
+      "Do not move the authored camera for a beauty angle.",
+      "For Arena framing review, capture the same stable state at the authored default and both bounded yaw endpoints.",
+      "For Ember Vault framing review, capture the same stable Boss state at yaw 0, yaw 325, and yaw 65.",
+      "Do not orbit outside the per-mode bound, pan, zoom, or change camera pitch or distance between comparison captures.",
+      "Full 360-degree orbit review is deferred.",
+      "Do not hide HUD elements that are visible in normal gameplay.",
+      "Capture stable combat states, not arbitrary particle peaks.",
+      "Treat the current environment as prototype evidence, not final-quality art.",
+      "Keep logs and captures outside Assets."
+    ]
+  },
+  "scenarios": [
+    {
+      "id": "pve-daylight-camp-details",
+      "playerSpecialization": "all-seven",
+      "maximumCaptures": 11,
+      "setup": [
+        "Use the normal PvE Leveling camera, isolated capture saves and camp indices 0 through 6; capture all seven districts with one specialization per district.",
+        "Camp 0 Frost at 1920x1080; camp 1 Discipline, camp 2 ShadowDance, camp 3 Fire, camp 5 Mutilate and camp 6 Shadow at 2400x1080; camp 4 Marksmanship at 2592x1080.",
+        "Also capture camp 4 at the bounded yaw endpoints 35 and 145 degrees.",
+        "Capture camp 0 at the north and south playable shoulders with lateral offsets +7 and -7, using yaw 35 and 145 respectively."
+      ],
+      "requiredEvidence": [
+        "characters and floor surfaces remain readable in shadow without additional shadow-casting lights",
+        "near-field camp details, broken paving, distinct district landmarks and bounded vegetation are visible",
+        "the playable corridor remains visually and physically unobstructed",
+        "existing class silhouettes, XP, nameplates and target markers remain readable"
+      ],
+      "rejectIf": [
+        "most of the scene is featureless black",
+        "new dressing hides the player or implies impassable objects inside Core walkable bounds",
+        "floor decoration resembles hostile telegraphs",
+        "brightening the world changes Arena, Siege or Boss lighting after leaving the region"
+      ]
+    },
+    {
+      "id": "arena-target-and-team-readability",
+      "playerSpecialization": "Discipline",
+      "maximumCaptures": 3,
+      "setup": [
+        "Start Arena.",
+        "Select an ally by roster, then an enemy in the world.",
+        "Leave one enemy unselected and all four combatants alive, then capture the same stable state at yaw 90, yaw 30, and yaw 150."
+      ],
+      "requiredEvidence": [
+        "human marker",
+        "ally/enemy distinction",
+        "single focus marker",
+        "compact roster HP and class badges",
+        "overhead HP/cast readability",
+        "human, focus, immediate threat, wardstones, and relevant arena edge remain readable at the authored default and both bounded endpoints"
+      ],
+      "rejectIf": [
+        "team or focus depends on color alone",
+        "roster or target UI hides central combat",
+        "selected world hero differs from selected roster unit",
+        "an orbit endpoint lets prototype perimeter art hide combatants, cover, feet, or the stone-to-lava boundary"
+      ]
+    },
+    {
+      "id": "arena-ability-readiness-stack",
+      "playerSpecialization": "Frost",
+      "maximumCaptures": 3,
+      "setup": [
+        "Show Deep Freeze before Frozen exists.",
+        "Trigger the global cooldown while another ability has its own cooldown.",
+        "Begin a Frostbolt cast with a valid enemy focus."
+      ],
+      "requiredEvidence": [
+        "NEEDS FROZEN blocker",
+        "GCD radial distinct from ability cooldown",
+        "cooldown seconds",
+        "cast bar and button acknowledgement"
+      ],
+      "rejectIf": [
+        "blocked, GCD, cooldown, and casting look equivalent",
+        "icon identity disappears under overlays",
+        "player cannot name the next actionable blocker"
+      ]
+    },
+    {
+      "id": "arena-fire-shape-language",
+      "playerSpecialization": "Fire",
+      "maximumCaptures": 3,
+      "setup": [
+        "Cast Fireball across open ground.",
+        "Use Dragon's Breath at close range.",
+        "Use Blast Wave near the safe-stone edge."
+      ],
+      "requiredEvidence": [
+        "projectile silhouette",
+        "directional breath silhouette",
+        "radial knockback silhouette",
+        "cast start and impact ownership"
+      ],
+      "rejectIf": [
+        "all three abilities read as flying balls",
+        "effect hides target health or feet",
+        "knockback direction is unclear"
+      ]
+    },
+    {
+      "id": "arena-frost-setup-resolution",
+      "playerSpecialization": "Frost",
+      "maximumCaptures": 3,
+      "setup": [
+        "Apply Frost Nova to a nearby enemy.",
+        "After GCD, resolve Deep Freeze on that enemy.",
+        "Show Ice Barrier on the player."
+      ],
+      "requiredEvidence": [
+        "root/Frozen setup",
+        "Deep Freeze resolution distinct from setup",
+        "barrier state",
+        "GCD transition"
+      ],
+      "rejectIf": [
+        "Nova and Deep Freeze share the same silhouette",
+        "Frozen setup is unreadable without button text",
+        "barrier obscures team/focus markers"
+      ]
+    },
+    {
+      "id": "arena-rogue-facing-and-stealth",
+      "playerSpecialization": "ShadowDance",
+      "maximumCaptures": 3,
+      "setup": [
+        "Enter stealth or a Shadow Dance access window.",
+        "Approach from behind and use an opener.",
+        "Capture the opponent roster while the Rogue is stealthed."
+      ],
+      "requiredEvidence": [
+        "correct forward-facing character",
+        "grounded feet",
+        "directional contact point",
+        "obscured but present stealth roster token",
+        "no leaked live enemy position/HP/cast"
+      ],
+      "rejectIf": [
+        "character presents the spine as forward",
+        "opener is represented only by a magic projectile",
+        "stealth leaks world position or live status"
+      ]
+    },
+    {
+      "id": "arena-rogue-venom-finisher",
+      "playerSpecialization": "Mutilate",
+      "maximumCaptures": 3,
+      "setup": [
+        "Apply poison with Shiv or Mutilate.",
+        "Build target-bound combo points.",
+        "Resolve Envenom."
+      ],
+      "requiredEvidence": [
+        "poison setup distinct from physical hit",
+        "combo-point state",
+        "finisher release and impact"
+      ],
+      "rejectIf": [
+        "builder and finisher use indistinguishable timing/shape",
+        "combo points cannot be associated with the focused target",
+        "green color is the only venom identifier"
+      ]
+    },
+    {
+      "id": "arena-wardstone-los-and-miss",
+      "playerSpecialization": "Discipline",
+      "maximumCaptures": 3,
+      "setup": [
+        "Select an enemy across a wardstone.",
+        "Show LOS rejection while preserving focus.",
+        "Start a legal cast, move the target behind cover, and capture miss resolution."
+      ],
+      "requiredEvidence": [
+        "cover footprint",
+        "preserved focus",
+        "LOS blocker",
+        "miss feedback without hit feedback"
+      ],
+      "rejectIf": [
+        "visible cover and authoritative LOS disagree",
+        "LOS failure silently substitutes another target",
+        "miss looks like successful damage/healing"
+      ]
+    },
+    {
+      "id": "arena-edge-knockback-lava-death",
+      "playerSpecialization": "Fire",
+      "maximumCaptures": 3,
+      "setup": [
+        "Fight near the safe-stone edge.",
+        "Use or receive Blast Wave toward lava.",
+        "Capture lava contact, recovery attempt, and one death/recap."
+      ],
+      "requiredEvidence": [
+        "safe edge versus lava boundary",
+        "knockback direction and landing risk",
+        "continuous hazard feedback",
+        "death cause and recap"
+      ],
+      "rejectIf": [
+        "lava reads as walkable decoration",
+        "death appears instantaneous or arbitrary",
+        "spell effects obscure feet or the edge"
+      ]
+    },
+    {
+      "id": "boss-ember-vault-environment",
+      "playerSpecialization": "Discipline",
+      "maximumCaptures": 3,
+      "setup": [
+        "Start the legacy Boss encounter so Ember Vault is the active Boss presentation.",
+        "Keep the party and Rift Warden alive in one stable readable state.",
+        "Capture that same state at Boss yaw 0, yaw 325, and yaw 65."
+      ],
+      "requiredEvidence": [
+        "scaled first-party carved floor language shared with Rift Crucible",
+        "thin readable boss and recovery inlays without filled primitive platforms",
+        "first-party fortress shoulders and exactly two distinct ember landmarks",
+        "party, boss, inlays, landmarks, and relevant floor edge remain readable at the authored default and both bounded endpoints",
+        "no visible KayKit Dungeon environment floor, wall, pillar, stair, or rubble language"
+      ],
+      "rejectIf": [
+        "the old filled boss dais or recovery platform returns",
+        "KayKit Dungeon environment modules are visible in Ember Vault",
+        "fewer than two ember landmarks remain distinguishable",
+        "a Boss-orbit endpoint hides the party, boss, inlays, landmarks, or relevant floor edge",
+        "the shared first-party kit is described as final environment art"
+      ]
+    },
+    {
+      "id": "leveling-ashen-causeway-route",
+      "playerSpecialization": "Marksmanship",
+      "maximumCaptures": 9,
+      "setup": [
+        "Start Training on Ashen Causeway and capture Ashbound Raider plus Cinder Marksman in West Refuge.",
+        "Capture Causeway Prelate plus Rimebound Frostweaver in Cinder Approach.",
+        "Capture Ashbound Brute plus Reliquary Warder at Broken Gate.",
+        "Capture the Collapsed Court breathing space after the central pack.",
+        "Capture Ashbound Raider, Cinder Marksman, and Cinder Hexer in Ossuary Bend, then the empty Reliquary Yard staging space.",
+        "Capture the Rift Warden finale at East Watch."
+      ],
+      "requiredEvidence": [
+        "one continuous west-to-east route",
+        "distinct refuge, approach, gate, court, ossuary, reliquary, and watch landmarks",
+        "current district, pack, and eastward objective",
+        "all eight hostile archetype identities remain distinguishable through names, badges, scale, and primary/signature spell language at gameplay scale",
+        "the Rift Warden chains Cleave, Rift Roar, and a warning centered on the actual resolved Meteor point"
+      ],
+      "rejectIf": [
+        "the route reads as copied arena circles",
+        "walls read as a repeated panel fence",
+        "foreground architecture hides feet, targets, or attacks",
+        "enemy proxies are presented as production creature art"
+      ]
+    },
+    {
+      "id": "leveling-xp-and-level-up",
+      "playerSpecialization": "Fire",
+      "maximumCaptures": 3,
+      "setup": [
+        "At level 1, capture exactly three learned actions with no reserved circles or future-skill previews.",
+        "After pack one, capture the named reveal and the fourth learned action in its stable authored position.",
+        "After pack four, capture the final named reveal and all seven learned actions."
+      ],
+      "requiredEvidence": [
+        "legible level and cumulative XP",
+        "three-action start with no locked, empty, or preview control",
+        "one-at-a-time learned-action reveals in stable authored positions",
+        "level-up feedback and named skill unlocks distinct from damage",
+        "seven learned actions at level 5 with no swipe-direction cues",
+        "pack recovery and district-aware ADVANCE EAST guidance"
+      ],
+      "rejectIf": [
+        "progression is visible only in transient particles",
+        "XP or level overlaps the objective or target UI",
+        "a cosmetic effect appears to grant the level",
+        "the player can idle at spawn and activate every pack",
+        "a locked circle, empty placeholder, or future-skill preview is visible",
+        "an unlearned action can be cast or a learned action fails to appear"
+      ]
+    }
+  ]
+}
